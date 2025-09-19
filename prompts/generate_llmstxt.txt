@@ -1,0 +1,166 @@
+# Prompt for Extracting Conference Information and Generating llms.txt
+
+## Task Overview
+You are tasked with extracting comprehensive conference information from a given website URL and converting it into a well-structured plaintext document (llms.txt format). This document should be human-readable, markdown-formatted, and contain all essential information about the conference.
+
+## Input
+- A URL to a conference website (e.g., https://www.ai.engineer/worldsfair/2025)
+
+## Process Instructions
+
+### 1. Initial Website Exploration
+- Start at the provided URL and thoroughly explore all pages and subpages
+- Look for navigation menus, footer links, and any accessible conference-related pages
+- Check for schedule pages, speaker directories, FAQ sections, venue information, and sponsor listings
+- If there's a JSON endpoint for sessions/speakers (like /sessions-speakers-details.json), prioritize that for accurate data
+
+### 2. Information Extraction
+Extract the following categories of information:
+
+**Essential Information:**
+- Conference name, tagline, and dates
+- Venue name and full address
+- Main website URL and ticket purchase links
+- Brief overview/description of the conference
+
+**Schedule & Sessions:**
+- Full schedule organized by day and track
+- For each session, extract:
+  - Session ID (if available)
+  - Track name
+  - Speaker name(s) and title(s)
+  - Format (Talk, Workshop, Keynote, Panel, etc.)
+  - Room/location
+  - Date and time
+  - Session title
+  - Full description
+
+**Speakers:**
+- Complete speaker list with names, titles, and organizations
+- Link speakers to their sessions
+
+**Tracks/Themes:**
+- List all conference tracks with descriptions
+- Note which days each track runs
+
+**Logistics:**
+- Registration/check-in times
+- Meal schedules (breakfast, lunch, breaks, receptions)
+- Side events and social activities
+- Hotel recommendations
+- Transportation information
+
+**Additional Information:**
+- Sponsors (organized by tier)
+- Community partners
+- Testimonials/reviews
+- FAQs
+- Contact information
+- Social media links
+- Code of conduct link
+- Any special programs (scholarships, volunteering)
+
+### 3. Formatting Guidelines
+
+**Document Structure:**
+```
+# [Conference Name]
+
+[Tagline if exists]
+
+[Brief overview paragraph]
+
+**Dates:** [Conference dates]  
+**Location:** [Venue and city]  
+**Website:** [URL]
+
+## Overview
+[Detailed description]
+
+## Key Information
+- [Bullet points with essential details]
+
+## Schedule
+
+### [Day 1 - Date]
+[Activities organized by time and track]
+
+### [Day 2 - Date]
+[Continue for all days]
+
+## Tracks
+[List and describe each track]
+
+## Speakers
+[Comprehensive speaker information]
+
+## Venue & Logistics
+[Venue details, hotels, transportation]
+
+## Sponsors
+[Organized by tier]
+
+## FAQs / Additional Information
+[Any other relevant information]
+
+## Contact
+[Contact details and links]
+```
+
+**Session Format Template:**
+```
+======================================================================
+---  Track: [TRACK NAME] ([Dates]) ---
+======================================================================
+
+    Session ID: [ID]
+    Track: [Track Name]
+    Speaker: [Name] ([Title/Organization])
+    Format: [Talk/Workshop/Keynote]
+    Room: [Location]
+    Time: [Day] [Date] [Time]
+    Session Title: [Title]
+    Description:
+    [Full description, properly formatted with line breaks]
+
+  ------------------------------------
+```
+
+### 4. Quality Guidelines
+
+- **Completeness:** Include ALL sessions, speakers, and relevant information found on the website
+- **Accuracy:** Double-check times, dates, names, and titles
+- **Readability:** Use clear headers, consistent formatting, and logical organization
+- **Plain Text:** Ensure the output is plaintext-friendly (no HTML, use markdown sparingly)
+- **Line Length:** Keep lines reasonable for readability (around 80-100 characters where practical)
+- **Hyperlinks:** Include important URLs in markdown format [text](url)
+
+### 5. Special Considerations
+
+- If information is behind a login or paywall, note what's inaccessible
+- If the schedule is subject to change, include a note about checking the website for updates
+- Include copyright information if present
+- If there are multiple ticket types, list them with prices
+- For virtual/hybrid events, note online participation options
+- Extract any COVID/health protocols if mentioned
+
+### 6. Output
+
+Generate a single comprehensive llms.txt file that serves as a complete reference guide for the conference. The document should be self-contained - someone should be able to understand everything about the conference without visiting the website.
+
+## Example Usage
+
+Input: "https://www.ai.engineer/worldsfair/2025"
+
+Output: [Generate the complete llms.txt as shown in the example, with all sessions, speakers, tracks, and conference details properly formatted]
+
+## Validation Checklist
+
+Before finalizing, verify:
+- [ ] All days of the conference are covered
+- [ ] All tracks have their sessions listed
+- [ ] Speaker names and affiliations are complete
+- [ ] Times and locations are included for all sessions
+- [ ] Venue and logistics information is present
+- [ ] Contact and registration links are working
+- [ ] Document is properly formatted and readable as plaintext
