@@ -9,11 +9,7 @@ import {
   useRef,
   useState,
 } from "react";
-import {
-  GladiaClient,
-  type LiveV2Session,
-  type LiveV2WebSocketMessage,
-} from "@gladiaio/sdk";
+import { GladiaClient, type LiveV2Session, type LiveV2WebSocketMessage } from "@gladiaio/sdk";
 
 type MessageRole = "system" | "user";
 
@@ -49,6 +45,68 @@ interface Message {
 }
 
 type ProfileAnswers = Partial<Record<StepId, string | string[]>>;
+
+type SessionOutline = {
+  sessionId: string;
+  track: string;
+  speaker: string;
+  speakerTitle?: string;
+  company?: string;
+  room?: string;
+  time?: string;
+  sessionTitle: string;
+  description: string;
+};
+
+type SessionPrepBrief = {
+  session_summary: {
+    headline: string;
+    why_it_matters: string;
+    attendee_fit: string;
+  };
+  key_takeaways: string[];
+  company_brief: {
+    positioning: string;
+    recent_moves: string;
+    competitive_angle: string;
+  };
+  speaker_brief: {
+    bio: string;
+    conference_goal: string;
+    conversation_starter: string;
+  };
+  smart_questions: string[];
+  sources: Array<{ title: string; url: string }>;
+};
+
+type SessionPrepResult = {
+  session: SessionOutline;
+  brief: SessionPrepBrief;
+  research: {
+    conferenceContext: string;
+    companyResearch: Array<{
+      title: string;
+      summary: string;
+      url?: string;
+      source: string;
+    }>;
+    topicResearch: Array<{
+      title: string;
+      summary: string;
+      url?: string;
+      source: string;
+    }>;
+    speakerResearch: Array<{
+      title: string;
+      summary: string;
+      url?: string;
+      source: string;
+    }>;
+    relatedLinks: string[];
+    cacheInfo: "cache:hit" | "cache:miss";
+  };
+  generatedAt: string;
+};
 
 const STEP_CONFIG: StepConfig[] = [
   {
@@ -95,21 +153,13 @@ const STEP_CONFIG: StepConfig[] = [
     id: "density",
     prompt: "How full should each day feel?",
     type: "options",
-    options: [
-      "Light with breathing room",
-      "Balanced mix",
-      "Packed and fast-paced",
-    ],
+    options: ["Light with breathing room", "Balanced mix", "Packed and fast-paced"],
   },
   {
     id: "diversity",
     prompt: "How should we balance your topics?",
     type: "options",
-    options: [
-      "Focused on one theme",
-      "Balanced variety",
-      "Exploratory across many tracks",
-    ],
+    options: ["Focused on one theme", "Balanced variety", "Exploratory across many tracks"],
   },
   {
     id: "topics",
@@ -156,29 +206,17 @@ const floatToPCM16 = (buffer: Float32Array) => {
 
   for (let index = 0; index < buffer.length; index += 1) {
     const sample = Math.max(-1, Math.min(1, buffer[index]));
-    view.setInt16(
-      index * 2,
-      sample < 0 ? sample * 0x8000 : sample * 0x7fff,
-      true,
-    );
+    view.setInt16(index * 2, sample < 0 ? sample * 0x8000 : sample * 0x7fff, true);
   }
 
   return pcmBuffer;
 };
 
 const buildSummary = (profile: ProfileAnswers) => {
-  const conference = isNonEmptyString(profile.conference)
-    ? profile.conference
-    : "TBD";
-  const name = isNonEmptyString(profile.name)
-    ? profile.name
-    : "Unknown attendee";
-  const role = isNonEmptyString(profile.role)
-    ? profile.role
-    : "Role still open";
-  const social = isNonEmptyString(profile.social)
-    ? profile.social
-    : "No social links shared";
+  const conference = isNonEmptyString(profile.conference) ? profile.conference : "TBD";
+  const name = isNonEmptyString(profile.name) ? profile.name : "Unknown attendee";
+  const role = isNonEmptyString(profile.role) ? profile.role : "Role still open";
+  const social = isNonEmptyString(profile.social) ? profile.social : "No social links shared";
   const objective = isNonEmptyString(profile.objective)
     ? profile.objective
     : "We will refine your goals together.";
@@ -211,21 +249,12 @@ const buildSummary = (profile: ProfileAnswers) => {
     lines.push(`Extra notes: ${extra}`);
   }
 
-  lines.push(
-    "",
-    "Next I'll translate this into a personalized conference playbook for you.",
-  );
+  lines.push("", "Next I'll translate this into a personalized conference playbook for you.");
 
   return lines.join("\n");
 };
 
-const HookArrow = ({
-  className,
-  style,
-}: {
-  className?: string;
-  style?: CSSProperties;
-}) => (
+const HookArrow = ({ className, style }: { className?: string; style?: CSSProperties }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 20 20"
@@ -263,9 +292,7 @@ const OptionRow = ({
     type="button"
     onClick={onClick}
     className={`group flex w-full items-center gap-3 rounded-full px-3 py-2 text-left text-sm transition-colors ${
-      selected
-        ? "bg-neutral-200 text-neutral-900"
-        : "text-neutral-600 hover:bg-neutral-100"
+      selected ? "bg-neutral-200 text-neutral-900" : "text-neutral-600 hover:bg-neutral-100"
     }`}
   >
     <span className="flex h-8 w-8 items-center justify-center text-neutral-400 group-hover:text-neutral-600">
@@ -287,6 +314,18 @@ export default function Home() {
   const [isAttachmentOpen, setIsAttachmentOpen] = useState(false);
   const [isRecording, setIsRecording] = useState(false);
   const [isConnecting, setIsConnecting] = useState(false);
+  const [sessionsLoading, setSessionsLoading] = useState(false);
+  const [sessionsError, setSessionsError] = useState<string | null>(null);
+  const [sessions, setSessions] = useState<SessionOutline[]>([]);
+  const [sessionSearch, setSessionSearch] = useState("");
+  const [selectedSessionId, setSelectedSessionId] = useState<string | null>(null);
+  const [prepResult, setPrepResult] = useState<SessionPrepResult | null>(null);
+  const [prepLoading, setPrepLoading] = useState(false);
+  const [prepError, setPrepError] = useState<string | null>(null);
+  const [forceRefresh, setForceRefresh] = useState(false);
+  const [scheduleText, setScheduleText] = useState<string | null>(null);
+  const [scheduleLoading, setScheduleLoading] = useState(false);
+  const [scheduleError, setScheduleError] = useState<string | null>(null);
 
   const attachmentRef = useRef<HTMLDivElement | null>(null);
   const sessionRef = useRef<LiveV2Session | null>(null);
@@ -296,10 +335,49 @@ export default function Home() {
   const processorNodeRef = useRef<ScriptProcessorNode | null>(null);
   const muteNodeRef = useRef<GainNode | null>(null);
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
+  const sessionsRequestedRef = useRef(false);
 
-  const currentStep =
-    stepIndex < STEP_CONFIG.length ? STEP_CONFIG[stepIndex] : undefined;
+  const currentStep = stepIndex < STEP_CONFIG.length ? STEP_CONFIG[stepIndex] : undefined;
   const displayMessages = messages;
+  const onboardingComplete = !currentStep;
+  const selectedSession =
+    selectedSessionId !== null
+      ? sessions.find((session) => session.sessionId === selectedSessionId) ?? null
+      : null;
+  const normalizedSearch = sessionSearch.trim().toLowerCase();
+  const filteredSessions = normalizedSearch
+    ? sessions.filter((session) => {
+        const haystack =
+          `${session.sessionTitle} ${session.speaker} ${session.track}`.toLowerCase();
+        return haystack.includes(normalizedSearch);
+      })
+    : sessions;
+
+  const loadSessions = useCallback(async (force = false) => {
+    if (!force && sessionsRequestedRef.current) {
+      return;
+    }
+
+    sessionsRequestedRef.current = true;
+    setSessionsLoading(true);
+    setSessionsError(null);
+
+    try {
+      const response = await fetch("/api/research/sessions");
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        throw new Error(payload.error ?? "Request failed");
+      }
+      const payload = (await response.json()) as { sessions: SessionOutline[] };
+      setSessions(payload.sessions ?? []);
+    } catch (error) {
+      console.error("Failed to load sessions", error);
+      setSessionsError(error instanceof Error ? error.message : "Unable to load sessions");
+      sessionsRequestedRef.current = false;
+    } finally {
+      setSessionsLoading(false);
+    }
+  }, []);
 
   const stopRecording = useCallback(() => {
     const liveSession = sessionRef.current;
@@ -370,7 +448,7 @@ export default function Home() {
       const apiKey = process.env.NEXT_PUBLIC_GLADIA_API_KEY;
       if (!apiKey) {
         alert(
-          "Gladia API key is required. Please add NEXT_PUBLIC_GLADIA_API_KEY to your .env.local file.",
+          "Gladia API key is required. Please add NEXT_PUBLIC_GLADIA_API_KEY to your .env.local file."
         );
         setIsConnecting(false);
         return;
@@ -456,7 +534,7 @@ export default function Home() {
       console.error("Error starting recording:", error);
       setIsConnecting(false);
       alert(
-        "Could not access microphone. Please check permissions and ensure you have a valid Gladia API key.",
+        "Could not access microphone. Please check permissions and ensure you have a valid Gladia API key."
       );
       stopRecording();
     }
@@ -485,6 +563,92 @@ export default function Home() {
   }, [stepIndex, stopRecording]);
 
   useEffect(() => {
+    if (!onboardingComplete) {
+      return;
+    }
+    loadSessions();
+  }, [onboardingComplete, loadSessions]);
+
+  useEffect(() => {
+    if (sessions.length > 0 && selectedSessionId === null) {
+      setSelectedSessionId(sessions[0].sessionId);
+    }
+  }, [sessions, selectedSessionId]);
+
+  const buildScheduleProfile = (answers: ProfileAnswers) => {
+    const parts: string[] = [];
+    if (isNonEmptyString(answers.name)) {
+      parts.push(`Name: ${answers.name}`);
+    }
+    if (isNonEmptyString(answers.role)) {
+      parts.push(`Role: ${answers.role}`);
+    }
+    if (isNonEmptyString(answers.conference)) {
+      parts.push(`Conference: ${answers.conference}`);
+    }
+    if (isNonEmptyString(answers.objective)) {
+      parts.push(`Objective: ${answers.objective}`);
+    }
+    if (isNonEmptyString(answers.density)) {
+      parts.push(`Schedule density: ${answers.density}`);
+    }
+    if (isNonEmptyString(answers.diversity)) {
+      parts.push(`Topic diversity: ${answers.diversity}`);
+    }
+    if (Array.isArray(answers.topics) && answers.topics.length > 0) {
+      parts.push(`Topics: ${answers.topics.join(", ")}`);
+    }
+    if (isNonEmptyString(answers.extra)) {
+      parts.push(`Extras: ${answers.extra}`);
+    }
+    return parts.join("\n");
+  };
+
+  const generateSchedule = useCallback(async () => {
+    setScheduleLoading(true);
+    setScheduleError(null);
+    setScheduleText(null);
+
+    try {
+      const profileText = buildScheduleProfile(profile);
+      const response = await fetch("/api/schedule", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          conferenceId: "conf_1758322878655_toq4rxx5w",
+          userProfile: profileText,
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        throw new Error(payload.error ?? "Schedule request failed");
+      }
+
+      const payload = await response.json();
+      const text: string | undefined = payload.schedule ?? payload.result ?? payload.text;
+      if (!text) {
+        throw new Error("Schedule response empty");
+      }
+      setScheduleText(text);
+    } catch (error) {
+      console.error("Failed to generate schedule", error);
+      setScheduleError(error instanceof Error ? error.message : "Unable to generate schedule");
+    } finally {
+      setScheduleLoading(false);
+    }
+  }, [profile]);
+
+  useEffect(() => {
+    if (!onboardingComplete) {
+      return;
+    }
+    generateSchedule();
+  }, [onboardingComplete, generateSchedule]);
+
+  useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (!attachmentRef.current) {
         return;
@@ -505,13 +669,13 @@ export default function Home() {
     () => () => {
       stopRecording();
     },
-    [stopRecording],
+    [stopRecording]
   );
 
   const advanceConversation = (
     value: string | string[] | null,
     displayText?: string,
-    skip?: boolean,
+    skip?: boolean
   ) => {
     if (!currentStep) {
       return;
@@ -520,20 +684,16 @@ export default function Home() {
     const normalizedValue = Array.isArray(value)
       ? value.map((item) => item.trim()).filter(Boolean)
       : typeof value === "string"
-        ? value.trim()
-        : null;
+      ? value.trim()
+      : null;
 
     const userDisplay =
       displayText ??
-      (Array.isArray(normalizedValue)
-        ? formatList(normalizedValue)
-        : (normalizedValue ?? ""));
+      (Array.isArray(normalizedValue) ? formatList(normalizedValue) : normalizedValue ?? "");
 
     if (!skip) {
-      const isEmptyArray =
-        Array.isArray(normalizedValue) && normalizedValue.length === 0;
-      const isEmptyString =
-        typeof normalizedValue === "string" && normalizedValue.length === 0;
+      const isEmptyArray = Array.isArray(normalizedValue) && normalizedValue.length === 0;
+      const isEmptyString = typeof normalizedValue === "string" && normalizedValue.length === 0;
       const isNull = normalizedValue === null;
       if (isEmptyArray || isEmptyString || isNull) {
         return;
@@ -618,6 +778,55 @@ export default function Home() {
       }
       return [...prev, value];
     });
+  };
+
+  const handleSelectSession = (session: SessionOutline) => {
+    setSelectedSessionId(session.sessionId);
+    setPrepResult(null);
+    setPrepError(null);
+  };
+
+  const handleSessionPrep = async () => {
+    if (!selectedSession) {
+      return;
+    }
+
+    setPrepLoading(true);
+    setPrepError(null);
+
+    try {
+      const response = await fetch("/api/research/session-prep", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          sessionId: selectedSession.sessionId,
+          forceRefresh,
+        }),
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        throw new Error(payload.error ?? "Request failed");
+      }
+
+      const payload = (await response.json()) as { result: SessionPrepResult };
+      setPrepResult(payload.result);
+      setMessages((prev) => [
+        ...prev,
+        {
+          id: `system-session-prep-${Date.now()}`,
+          role: "system",
+          content: `Here's your prep for "${selectedSession.sessionTitle}" — see the details on the right`,
+        },
+      ]);
+    } catch (error) {
+      console.error("Failed to prepare session", error);
+      setPrepError(error instanceof Error ? error.message : "Unable to generate session prep");
+    } finally {
+      setPrepLoading(false);
+    }
   };
 
   const handleAddTopic = (event: FormEvent<HTMLFormElement>) => {
@@ -721,13 +930,7 @@ export default function Home() {
                 strokeWidth="1.4"
                 strokeLinejoin="round"
               />
-              <circle
-                cx="10"
-                cy="10"
-                r="2.5"
-                stroke="currentColor"
-                strokeWidth="1.4"
-              />
+              <circle cx="10" cy="10" r="2.5" stroke="currentColor" strokeWidth="1.4" />
             </svg>
           ),
         },
@@ -771,12 +974,7 @@ export default function Home() {
               fill="none"
               className="h-5 w-5"
             >
-              <path
-                d="M10 4v8"
-                stroke="currentColor"
-                strokeWidth="1.4"
-                strokeLinecap="round"
-              />
+              <path d="M10 4v8" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
               <path
                 d="M7.5 6.5 10 4l2.5 2.5"
                 stroke="currentColor"
@@ -818,12 +1016,10 @@ export default function Home() {
                     isRecording
                       ? "border-red-400 bg-red-50 text-red-600 hover:bg-red-100"
                       : isConnecting
-                        ? "border-orange-400 bg-orange-50 text-orange-600"
-                        : "border-neutral-200 text-neutral-500 hover:border-neutral-300"
+                      ? "border-orange-400 bg-orange-50 text-orange-600"
+                      : "border-neutral-200 text-neutral-500 hover:border-neutral-300"
                   }`}
-                  aria-label={
-                    isRecording ? "Stop recording" : "Start recording"
-                  }
+                  aria-label={isRecording ? "Stop recording" : "Start recording"}
                 >
                   {isConnecting ? (
                     <svg className="h-4 w-4 animate-spin" viewBox="0 0 24 24">
@@ -871,18 +1067,11 @@ export default function Home() {
                   )}
                 </button>
                 <span className="pointer-events-none absolute -top-10 left-1/2 hidden -translate-x-1/2 rounded-md bg-neutral-900 px-3 py-1 text-xs font-medium uppercase tracking-[0.2em] text-white group-hover:flex">
-                  {isRecording
-                    ? "Recording"
-                    : isConnecting
-                      ? "Connecting"
-                      : "Record"}
+                  {isRecording ? "Recording" : isConnecting ? "Connecting" : "Record"}
                 </span>
               </div>
 
-              <div
-                ref={attachmentRef}
-                className="group relative flex items-center"
-              >
+              <div ref={attachmentRef} className="group relative flex items-center">
                 <button
                   type="button"
                   onMouseDown={(event) => event.stopPropagation()}
@@ -890,7 +1079,11 @@ export default function Home() {
                     event.stopPropagation();
                     setIsAttachmentOpen((prev) => !prev);
                   }}
-                  className={`flex h-9 w-9 items-center justify-center rounded-full border ${isAttachmentOpen ? "border-neutral-400 text-neutral-700" : "border-neutral-200 text-neutral-500"} transition-colors hover:border-neutral-300`}
+                  className={`flex h-9 w-9 items-center justify-center rounded-full border ${
+                    isAttachmentOpen
+                      ? "border-neutral-400 text-neutral-700"
+                      : "border-neutral-200 text-neutral-500"
+                  } transition-colors hover:border-neutral-300`}
                   aria-label="Attach"
                 >
                   +
@@ -916,9 +1109,7 @@ export default function Home() {
                           <span className="flex h-6 w-6 items-center justify-center">
                             {option.icon}
                           </span>
-                          <span className="truncate text-left">
-                            {option.label}
-                          </span>
+                          <span className="truncate text-left">{option.label}</span>
                         </button>
                       ))}
                     </div>
@@ -1042,15 +1233,10 @@ export default function Home() {
                 className="group flex w-full items-center gap-3 rounded-full bg-neutral-100 px-4 py-2 text-left text-sm text-neutral-700"
               >
                 <span className="flex h-8 w-8 items-center justify-center text-neutral-400 group-hover:text-neutral-600">
-                  <HookArrow
-                    className="h-4 w-4"
-                    style={{ transform: "rotate(90deg)" }}
-                  />
+                  <HookArrow className="h-4 w-4" style={{ transform: "rotate(90deg)" }} />
                 </span>
                 <span className="flex-1 leading-snug">{topic}</span>
-                <span className="text-xs font-medium text-neutral-500">
-                  Remove
-                </span>
+                <span className="text-xs font-medium text-neutral-500">Remove</span>
               </button>
             ))}
           </div>
@@ -1176,8 +1362,7 @@ export default function Home() {
                 </svg>
               </button>
               <div className="hidden text-sm text-neutral-400 sm:block">
-                Step {Math.min(stepIndex + 1, STEP_CONFIG.length)} of{" "}
-                {STEP_CONFIG.length}
+                Step {Math.min(stepIndex + 1, STEP_CONFIG.length)} of {STEP_CONFIG.length}
               </div>
             </div>
             <div className="flex-1 space-y-6 overflow-y-auto pr-2">
@@ -1191,9 +1376,7 @@ export default function Home() {
                       </p>
                     ) : (
                       <div className="inline-flex max-w-xl rounded-full bg-neutral-100 px-4 py-2 text-sm text-neutral-800">
-                        <span className="leading-relaxed">
-                          {message.content}
-                        </span>
+                        <span className="leading-relaxed">{message.content}</span>
                       </div>
                     )}
                   </div>
@@ -1205,7 +1388,320 @@ export default function Home() {
           </div>
         </section>
 
-        <div className="hidden flex-1 bg-neutral-100 lg:block" />
+        <div className="hidden flex-1 bg-neutral-100 lg:flex">
+          <div className="flex h-full w-full flex-col gap-6 overflow-y-auto px-8 py-10">
+            {onboardingComplete ? (
+              <div className="flex flex-1 flex-col gap-6">
+                <div>
+                  <h2 className="text-xl font-semibold text-neutral-900">Session research prep</h2>
+                  <p className="mt-1 text-sm text-neutral-600">
+                    Choose a session to generate a five-minute briefing before you head in.
+                  </p>
+                </div>
+
+                <div className="rounded-2xl bg-white p-5 shadow-sm">
+                  <div className="flex items-center justify-between gap-3">
+                    <div>
+                      <h3 className="text-base font-semibold text-neutral-900">
+                        Personalized schedule
+                      </h3>
+                      <p className="text-xs text-neutral-500">
+                        Generated from your onboarding preferences.
+                      </p>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={generateSchedule}
+                      disabled={scheduleLoading}
+                      className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+                        scheduleLoading
+                          ? "bg-neutral-200 text-neutral-500"
+                          : "border border-neutral-300 text-neutral-600 hover:border-neutral-400 hover:text-neutral-800"
+                      }`}
+                    >
+                      {scheduleLoading ? "Generating…" : "Regenerate"}
+                    </button>
+                  </div>
+                  <div className="mt-4 rounded-2xl border border-neutral-200 bg-neutral-50 p-4 text-sm text-neutral-700">
+                    {scheduleLoading ? (
+                      <p>Building your schedule…</p>
+                    ) : scheduleError ? (
+                      <p className="text-red-600">{scheduleError}</p>
+                    ) : scheduleText ? (
+                      <pre className="whitespace-pre-wrap text-sm text-neutral-800">
+                        {scheduleText}
+                      </pre>
+                    ) : (
+                      <p className="text-neutral-500">
+                        Your schedule will appear here once generated.
+                      </p>
+                    )}
+                  </div>
+                </div>
+
+                <div className="rounded-2xl bg-white p-5 shadow-sm">
+                  <div className="flex flex-wrap items-center justify-between gap-3">
+                    <div>
+                      <h3 className="text-base font-semibold text-neutral-900">
+                        Conference sessions
+                      </h3>
+                      <p className="text-xs text-neutral-500">
+                        Pulled from the latest conference rundown.
+                      </p>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        sessionsRequestedRef.current = false;
+                        loadSessions(true);
+                      }}
+                      className="rounded-full border border-neutral-300 px-3 py-1 text-xs font-medium text-neutral-600 transition-colors hover:border-neutral-400 hover:text-neutral-800"
+                    >
+                      Refresh
+                    </button>
+                  </div>
+
+                  <div className="mt-4">
+                    <input
+                      value={sessionSearch}
+                      onChange={(event) => setSessionSearch(event.target.value)}
+                      placeholder="Search by title, speaker, or track"
+                      className="w-full rounded-full border border-neutral-200 px-4 py-2 text-sm text-neutral-800 placeholder:text-neutral-400 focus:border-neutral-400 focus:outline-none"
+                    />
+                  </div>
+
+                  <div className="mt-4 max-h-72 overflow-y-auto rounded-2xl border border-neutral-200">
+                    {sessionsLoading ? (
+                      <div className="p-4 text-sm text-neutral-500">Loading sessions…</div>
+                    ) : sessionsError ? (
+                      <div className="space-y-3 p-4 text-sm">
+                        <p className="text-neutral-600">{sessionsError}</p>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            sessionsRequestedRef.current = false;
+                            loadSessions(true);
+                          }}
+                          className="rounded-full bg-neutral-900 px-4 py-2 text-xs font-semibold text-white transition-colors hover:bg-neutral-800"
+                        >
+                          Try again
+                        </button>
+                      </div>
+                    ) : filteredSessions.length === 0 ? (
+                      <div className="p-4 text-sm text-neutral-500">
+                        No sessions match your search yet.
+                      </div>
+                    ) : (
+                      <ul className="divide-y divide-neutral-200">
+                        {filteredSessions.map((session, index) => {
+                          const isSelected = selectedSessionId === session.sessionId;
+                          return (
+                            <li key={`${session.sessionId}-${index}`}>
+                              <button
+                                type="button"
+                                onClick={() => handleSelectSession(session)}
+                                className={`flex w-full flex-col gap-1 px-4 py-3 text-left transition-colors ${
+                                  isSelected ? "bg-neutral-900 text-white" : "hover:bg-neutral-50"
+                                }`}
+                              >
+                                <div className="flex flex-wrap items-center justify-between gap-2 text-sm font-semibold">
+                                  <span>{session.sessionTitle}</span>
+                                  {session.time ? (
+                                    <span
+                                      className={`${
+                                        isSelected ? "text-neutral-200" : "text-neutral-500"
+                                      } text-xs uppercase tracking-wide`}
+                                    >
+                                      {session.time}
+                                    </span>
+                                  ) : null}
+                                </div>
+                                <div
+                                  className={`text-xs ${
+                                    isSelected ? "text-neutral-200" : "text-neutral-600"
+                                  }`}
+                                >
+                                  {session.speaker}
+                                  {session.speakerTitle ? ` · ${session.speakerTitle}` : ""}
+                                  {session.company ? ` — ${session.company}` : ""}
+                                </div>
+                                <div
+                                  className={`text-xs ${
+                                    isSelected ? "text-neutral-300" : "text-neutral-500"
+                                  }`}
+                                >
+                                  {session.track}
+                                </div>
+                              </button>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    )}
+                  </div>
+                </div>
+
+                {selectedSession ? (
+                  <div className="space-y-6">
+                    <div className="rounded-2xl bg-white p-5 shadow-sm">
+                      <div className="flex flex-wrap items-start justify-between gap-3">
+                        <div>
+                          <h3 className="text-base font-semibold text-neutral-900">
+                            {selectedSession.sessionTitle}
+                          </h3>
+                          <p className="mt-1 text-sm text-neutral-600">
+                            {selectedSession.speaker}
+                            {selectedSession.speakerTitle
+                              ? ` · ${selectedSession.speakerTitle}`
+                              : ""}
+                            {selectedSession.company ? ` — ${selectedSession.company}` : ""}
+                          </p>
+                          <p className="mt-1 text-xs uppercase tracking-wide text-neutral-500">
+                            {selectedSession.time ?? "Time TBD"} ·{" "}
+                            {selectedSession.room ?? "Room TBD"}
+                          </p>
+                        </div>
+                        <button
+                          type="button"
+                          onClick={handleSessionPrep}
+                          disabled={prepLoading}
+                          className={`rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
+                            prepLoading
+                              ? "bg-neutral-300 text-neutral-600"
+                              : "bg-neutral-900 text-white hover:bg-neutral-800"
+                          }`}
+                        >
+                          {prepLoading ? "Preparing…" : "Generate prep"}
+                        </button>
+                      </div>
+
+                      <p className="mt-4 text-sm text-neutral-600">{selectedSession.description}</p>
+
+                      <label className="mt-4 flex items-center gap-2 text-xs text-neutral-600">
+                        <input
+                          type="checkbox"
+                          checked={forceRefresh}
+                          onChange={(event) => setForceRefresh(event.target.checked)}
+                          className="h-4 w-4 rounded border-neutral-300 text-neutral-900 focus:ring-neutral-500"
+                        />
+                        Force fresh research
+                      </label>
+
+                      {prepError ? (
+                        <div className="mt-4 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-600">
+                          {prepError}
+                        </div>
+                      ) : null}
+                    </div>
+
+                    {prepResult ? (
+                      <div className="space-y-5 rounded-2xl bg-white p-5 shadow-sm">
+                        <div className="flex flex-wrap items-center justify-between gap-2">
+                          <div>
+                            <h3 className="text-base font-semibold text-neutral-900">
+                              Prep briefing
+                            </h3>
+                            <p className="text-xs text-neutral-500">
+                              Generated {new Date(prepResult.generatedAt).toLocaleString()} ·{" "}
+                              {prepResult.research.cacheInfo}
+                            </p>
+                          </div>
+                        </div>
+
+                        <div className="space-y-4 text-sm text-neutral-700">
+                          <div>
+                            <h4 className="text-sm font-semibold text-neutral-900">
+                              Session summary
+                            </h4>
+                            <p className="mt-1 font-medium text-neutral-800">
+                              {prepResult.brief.session_summary.headline}
+                            </p>
+                            <p className="mt-1">
+                              {prepResult.brief.session_summary.why_it_matters}
+                            </p>
+                            <p className="mt-1 text-neutral-600">
+                              Fit: {prepResult.brief.session_summary.attendee_fit}
+                            </p>
+                          </div>
+
+                          <div>
+                            <h4 className="text-sm font-semibold text-neutral-900">
+                              Key takeaways
+                            </h4>
+                            <ul className="mt-1 list-disc space-y-1 pl-4">
+                              {prepResult.brief.key_takeaways.map((item, index) => (
+                                <li key={`takeaway-${index}`}>{item}</li>
+                              ))}
+                            </ul>
+                          </div>
+
+                          <div>
+                            <h4 className="text-sm font-semibold text-neutral-900">
+                              Company focus
+                            </h4>
+                            <ul className="mt-1 space-y-1 text-neutral-700">
+                              <li>{prepResult.brief.company_brief.positioning}</li>
+                              <li>{prepResult.brief.company_brief.recent_moves}</li>
+                              <li>{prepResult.brief.company_brief.competitive_angle}</li>
+                            </ul>
+                          </div>
+
+                          <div>
+                            <h4 className="text-sm font-semibold text-neutral-900">
+                              Speaker intel
+                            </h4>
+                            <ul className="mt-1 space-y-1 text-neutral-700">
+                              <li>{prepResult.brief.speaker_brief.bio}</li>
+                              <li>{prepResult.brief.speaker_brief.conference_goal}</li>
+                              <li>{prepResult.brief.speaker_brief.conversation_starter}</li>
+                            </ul>
+                          </div>
+
+                          <div>
+                            <h4 className="text-sm font-semibold text-neutral-900">
+                              Smart questions
+                            </h4>
+                            <ul className="mt-1 list-disc space-y-1 pl-4">
+                              {prepResult.brief.smart_questions.map((item, index) => (
+                                <li key={`question-${index}`}>{item}</li>
+                              ))}
+                            </ul>
+                          </div>
+
+                          <div>
+                            <h4 className="text-sm font-semibold text-neutral-900">Sources</h4>
+                            <ul className="mt-1 space-y-2">
+                              {prepResult.brief.sources.map((source, index) => (
+                                <li key={`source-${index}`}>
+                                  <a
+                                    href={source.url}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="text-sm font-medium text-neutral-900 underline-offset-2 hover:underline"
+                                  >
+                                    {source.title}
+                                  </a>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    ) : null}
+                  </div>
+                ) : (
+                  <div className="rounded-2xl bg-white p-5 text-sm text-neutral-600 shadow-sm">
+                    Select a session from the list to build your prep briefing.
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div className="flex flex-1 items-center justify-center rounded-2xl border border-dashed border-neutral-300 bg-neutral-50 px-6 text-center text-sm text-neutral-500">
+                Complete the onboarding conversation to unlock session prep tools.
+              </div>
+            )}
+          </div>
+        </div>
       </div>
     </div>
   );

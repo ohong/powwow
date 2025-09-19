@@ -550,3 +550,10 @@ export const prepareSessionPrep = async (
     generatedAt: cachePayload.computedAt,
   };
 };
+
+export const listConferenceSessions = async (
+  conferenceId: string = DEFAULT_CONFERENCE_ID
+): Promise<SessionOutline[]> => {
+  const conferenceContent = await ensureConferenceMaterial(conferenceId);
+  return parseConferenceSessions(conferenceContent);
+};
