@@ -9,7 +9,11 @@ import {
   useRef,
   useState,
 } from "react";
-import { GladiaClient, type LiveV2Session, type LiveV2WebSocketMessage } from "@gladiaio/sdk";
+import {
+  GladiaClient,
+  type LiveV2Session,
+  type LiveV2WebSocketMessage,
+} from "@gladiaio/sdk";
 
 type MessageRole = "system" | "user";
 
@@ -91,13 +95,21 @@ const STEP_CONFIG: StepConfig[] = [
     id: "density",
     prompt: "How full should each day feel?",
     type: "options",
-    options: ["Light with breathing room", "Balanced mix", "Packed and fast-paced"],
+    options: [
+      "Light with breathing room",
+      "Balanced mix",
+      "Packed and fast-paced",
+    ],
   },
   {
     id: "diversity",
     prompt: "How should we balance your topics?",
     type: "options",
-    options: ["Focused on one theme", "Balanced variety", "Exploratory across many tracks"],
+    options: [
+      "Focused on one theme",
+      "Balanced variety",
+      "Exploratory across many tracks",
+    ],
   },
   {
     id: "topics",
@@ -144,17 +156,29 @@ const floatToPCM16 = (buffer: Float32Array) => {
 
   for (let index = 0; index < buffer.length; index += 1) {
     const sample = Math.max(-1, Math.min(1, buffer[index]));
-    view.setInt16(index * 2, sample < 0 ? sample * 0x8000 : sample * 0x7fff, true);
+    view.setInt16(
+      index * 2,
+      sample < 0 ? sample * 0x8000 : sample * 0x7fff,
+      true,
+    );
   }
 
   return pcmBuffer;
 };
 
 const buildSummary = (profile: ProfileAnswers) => {
-  const conference = isNonEmptyString(profile.conference) ? profile.conference : "TBD";
-  const name = isNonEmptyString(profile.name) ? profile.name : "Unknown attendee";
-  const role = isNonEmptyString(profile.role) ? profile.role : "Role still open";
-  const social = isNonEmptyString(profile.social) ? profile.social : "No social links shared";
+  const conference = isNonEmptyString(profile.conference)
+    ? profile.conference
+    : "TBD";
+  const name = isNonEmptyString(profile.name)
+    ? profile.name
+    : "Unknown attendee";
+  const role = isNonEmptyString(profile.role)
+    ? profile.role
+    : "Role still open";
+  const social = isNonEmptyString(profile.social)
+    ? profile.social
+    : "No social links shared";
   const objective = isNonEmptyString(profile.objective)
     ? profile.objective
     : "We will refine your goals together.";
@@ -187,12 +211,21 @@ const buildSummary = (profile: ProfileAnswers) => {
     lines.push(`Extra notes: ${extra}`);
   }
 
-  lines.push("", "Next I'll translate this into a personalized conference playbook for you.");
+  lines.push(
+    "",
+    "Next I'll translate this into a personalized conference playbook for you.",
+  );
 
   return lines.join("\n");
 };
 
-const HookArrow = ({ className, style }: { className?: string; style?: CSSProperties }) => (
+const HookArrow = ({
+  className,
+  style,
+}: {
+  className?: string;
+  style?: CSSProperties;
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 20 20"
@@ -230,7 +263,9 @@ const OptionRow = ({
     type="button"
     onClick={onClick}
     className={`group flex w-full items-center gap-3 rounded-full px-3 py-2 text-left text-sm transition-colors ${
-      selected ? "bg-neutral-200 text-neutral-900" : "text-neutral-600 hover:bg-neutral-100"
+      selected
+        ? "bg-neutral-200 text-neutral-900"
+        : "text-neutral-600 hover:bg-neutral-100"
     }`}
   >
     <span className="flex h-8 w-8 items-center justify-center text-neutral-400 group-hover:text-neutral-600">
@@ -262,7 +297,8 @@ export default function Home() {
   const muteNodeRef = useRef<GainNode | null>(null);
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
 
-  const currentStep = stepIndex < STEP_CONFIG.length ? STEP_CONFIG[stepIndex] : undefined;
+  const currentStep =
+    stepIndex < STEP_CONFIG.length ? STEP_CONFIG[stepIndex] : undefined;
   const displayMessages = messages;
 
   const stopRecording = useCallback(() => {
@@ -334,7 +370,7 @@ export default function Home() {
       const apiKey = process.env.NEXT_PUBLIC_GLADIA_API_KEY;
       if (!apiKey) {
         alert(
-          "Gladia API key is required. Please add NEXT_PUBLIC_GLADIA_API_KEY to your .env.local file."
+          "Gladia API key is required. Please add NEXT_PUBLIC_GLADIA_API_KEY to your .env.local file.",
         );
         setIsConnecting(false);
         return;
@@ -420,7 +456,7 @@ export default function Home() {
       console.error("Error starting recording:", error);
       setIsConnecting(false);
       alert(
-        "Could not access microphone. Please check permissions and ensure you have a valid Gladia API key."
+        "Could not access microphone. Please check permissions and ensure you have a valid Gladia API key.",
       );
       stopRecording();
     }
@@ -469,13 +505,13 @@ export default function Home() {
     () => () => {
       stopRecording();
     },
-    [stopRecording]
+    [stopRecording],
   );
 
   const advanceConversation = (
     value: string | string[] | null,
     displayText?: string,
-    skip?: boolean
+    skip?: boolean,
   ) => {
     if (!currentStep) {
       return;
@@ -484,16 +520,20 @@ export default function Home() {
     const normalizedValue = Array.isArray(value)
       ? value.map((item) => item.trim()).filter(Boolean)
       : typeof value === "string"
-      ? value.trim()
-      : null;
+        ? value.trim()
+        : null;
 
     const userDisplay =
       displayText ??
-      (Array.isArray(normalizedValue) ? formatList(normalizedValue) : normalizedValue ?? "");
+      (Array.isArray(normalizedValue)
+        ? formatList(normalizedValue)
+        : (normalizedValue ?? ""));
 
     if (!skip) {
-      const isEmptyArray = Array.isArray(normalizedValue) && normalizedValue.length === 0;
-      const isEmptyString = typeof normalizedValue === "string" && normalizedValue.length === 0;
+      const isEmptyArray =
+        Array.isArray(normalizedValue) && normalizedValue.length === 0;
+      const isEmptyString =
+        typeof normalizedValue === "string" && normalizedValue.length === 0;
       const isNull = normalizedValue === null;
       if (isEmptyArray || isEmptyString || isNull) {
         return;
@@ -681,7 +721,13 @@ export default function Home() {
                 strokeWidth="1.4"
                 strokeLinejoin="round"
               />
-              <circle cx="10" cy="10" r="2.5" stroke="currentColor" strokeWidth="1.4" />
+              <circle
+                cx="10"
+                cy="10"
+                r="2.5"
+                stroke="currentColor"
+                strokeWidth="1.4"
+              />
             </svg>
           ),
         },
@@ -725,7 +771,12 @@ export default function Home() {
               fill="none"
               className="h-5 w-5"
             >
-              <path d="M10 4v8" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
+              <path
+                d="M10 4v8"
+                stroke="currentColor"
+                strokeWidth="1.4"
+                strokeLinecap="round"
+              />
               <path
                 d="M7.5 6.5 10 4l2.5 2.5"
                 stroke="currentColor"
@@ -767,10 +818,12 @@ export default function Home() {
                     isRecording
                       ? "border-red-400 bg-red-50 text-red-600 hover:bg-red-100"
                       : isConnecting
-                      ? "border-orange-400 bg-orange-50 text-orange-600"
-                      : "border-neutral-200 text-neutral-500 hover:border-neutral-300"
+                        ? "border-orange-400 bg-orange-50 text-orange-600"
+                        : "border-neutral-200 text-neutral-500 hover:border-neutral-300"
                   }`}
-                  aria-label={isRecording ? "Stop recording" : "Start recording"}
+                  aria-label={
+                    isRecording ? "Stop recording" : "Start recording"
+                  }
                 >
                   {isConnecting ? (
                     <svg className="h-4 w-4 animate-spin" viewBox="0 0 24 24">
@@ -818,11 +871,18 @@ export default function Home() {
                   )}
                 </button>
                 <span className="pointer-events-none absolute -top-10 left-1/2 hidden -translate-x-1/2 rounded-md bg-neutral-900 px-3 py-1 text-xs font-medium uppercase tracking-[0.2em] text-white group-hover:flex">
-                  {isRecording ? "Recording" : isConnecting ? "Connecting" : "Record"}
+                  {isRecording
+                    ? "Recording"
+                    : isConnecting
+                      ? "Connecting"
+                      : "Record"}
                 </span>
               </div>
 
-              <div ref={attachmentRef} className="group relative flex items-center">
+              <div
+                ref={attachmentRef}
+                className="group relative flex items-center"
+              >
                 <button
                   type="button"
                   onMouseDown={(event) => event.stopPropagation()}
@@ -830,11 +890,7 @@ export default function Home() {
                     event.stopPropagation();
                     setIsAttachmentOpen((prev) => !prev);
                   }}
-                  className={`flex h-9 w-9 items-center justify-center rounded-full border ${
-                    isAttachmentOpen
-                      ? "border-neutral-400 text-neutral-700"
-                      : "border-neutral-200 text-neutral-500"
-                  } transition-colors hover:border-neutral-300`}
+                  className={`flex h-9 w-9 items-center justify-center rounded-full border ${isAttachmentOpen ? "border-neutral-400 text-neutral-700" : "border-neutral-200 text-neutral-500"} transition-colors hover:border-neutral-300`}
                   aria-label="Attach"
                 >
                   +
@@ -860,7 +916,9 @@ export default function Home() {
                           <span className="flex h-6 w-6 items-center justify-center">
                             {option.icon}
                           </span>
-                          <span className="truncate text-left">{option.label}</span>
+                          <span className="truncate text-left">
+                            {option.label}
+                          </span>
                         </button>
                       ))}
                     </div>
@@ -984,10 +1042,15 @@ export default function Home() {
                 className="group flex w-full items-center gap-3 rounded-full bg-neutral-100 px-4 py-2 text-left text-sm text-neutral-700"
               >
                 <span className="flex h-8 w-8 items-center justify-center text-neutral-400 group-hover:text-neutral-600">
-                  <HookArrow className="h-4 w-4" style={{ transform: "rotate(90deg)" }} />
+                  <HookArrow
+                    className="h-4 w-4"
+                    style={{ transform: "rotate(90deg)" }}
+                  />
                 </span>
                 <span className="flex-1 leading-snug">{topic}</span>
-                <span className="text-xs font-medium text-neutral-500">Remove</span>
+                <span className="text-xs font-medium text-neutral-500">
+                  Remove
+                </span>
               </button>
             ))}
           </div>
@@ -1113,7 +1176,8 @@ export default function Home() {
                 </svg>
               </button>
               <div className="hidden text-sm text-neutral-400 sm:block">
-                Step {Math.min(stepIndex + 1, STEP_CONFIG.length)} of {STEP_CONFIG.length}
+                Step {Math.min(stepIndex + 1, STEP_CONFIG.length)} of{" "}
+                {STEP_CONFIG.length}
               </div>
             </div>
             <div className="flex-1 space-y-6 overflow-y-auto pr-2">
@@ -1127,7 +1191,9 @@ export default function Home() {
                       </p>
                     ) : (
                       <div className="inline-flex max-w-xl rounded-full bg-neutral-100 px-4 py-2 text-sm text-neutral-800">
-                        <span className="leading-relaxed">{message.content}</span>
+                        <span className="leading-relaxed">
+                          {message.content}
+                        </span>
                       </div>
                     )}
                   </div>
