@@ -19,6 +19,7 @@ export default function LiveTranscriptionPage() {
   const [transcripts, setTranscripts] = useState<Transcript[]>([]);
   const [status, setStatus] = useState<string>('disconnected');
   const [error, setError] = useState<string | null>(null);
+  const [sessionStartTime, setSessionStartTime] = useState<number | null>(null);
 
   const wsManagerRef = useRef<GladiaWebSocketManager | null>(null);
   const audioProcessorRef = useRef<AudioProcessor | null>(null);
@@ -127,6 +128,7 @@ export default function LiveTranscriptionPage() {
 
       setIsRecording(true);
       setIsConnecting(false);
+      setSessionStartTime(Date.now());
     } catch (error) {
       console.error('Error starting transcription:', error);
       setError(error instanceof Error ? error.message : 'Failed to start transcription');
@@ -143,7 +145,7 @@ export default function LiveTranscriptionPage() {
   };
 
   // Stop transcription session
-  const stopTranscription = () => {
+  const stopTranscription = async () => {
     try {
       if (wsManagerRef.current) {
         wsManagerRef.current.stopRecording();
@@ -153,6 +155,67 @@ export default function LiveTranscriptionPage() {
       if (audioProcessorRef.current) {
         audioProcessorRef.current.stopRecording();
       }
+
+      // Filter out partial transcripts and get only final ones
+      const finalTranscripts = transcripts.filter(t => !t.isPartial);
+      
+      // Print all transcripts to console
+      console.log('=== TRANSCRIPTION SESSION COMPLETE ===');
+      console.log('Session ID:', sessionId);
+      console.log('Total transcripts:', finalTranscripts.length);
+      console.log('Session duration:', new Date().toISOString());
+      console.log('\n=== FULL TRANSCRIPT ===');
+      
+      if (finalTranscripts.length > 0) {
+        // Print individual transcripts
+        finalTranscripts.forEach((transcript, index) => {
+          console.log(`${index + 1}. [${transcript.timestamp}] ${transcript.text}`);
+        });
+        
+        // Print combined full text
+        const fullText = finalTranscripts.map(t => t.text).join(' ');
+        console.log('\n=== COMBINED TEXT ===');
+        console.log(fullText);
+        
+        // Print as formatted JSON
+        console.log('\n=== TRANSCRIPTS AS JSON ===');
+        console.log(JSON.stringify(finalTranscripts, null, 2));
+
+        // Save to Supabase
+        try {
+          const response = await fetch('/api/transcripts/save', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              sessionId: sessionId,
+              transcripts: finalTranscripts,
+              fullText: fullText,
+              sessionDuration: Date.now() - (sessionStartTime || Date.now())
+            }),
+          });
+
+          if (response.ok) {
+            const result = await response.json();
+            console.log('Transcripts saved to Supabase:', result);
+            
+            // Redirect to transcripts page
+            window.location.href = '/transcripts';
+          } else {
+            console.error('Failed to save transcripts to Supabase');
+            setError('Failed to save transcripts to database');
+          }
+        } catch (saveError) {
+          console.error('Error saving transcripts:', saveError);
+          setError('Failed to save transcripts to database');
+        }
+      } else {
+        console.log('No final transcripts available');
+        setError('No transcripts to save');
+      }
+      
+      console.log('=== END OF TRANSCRIPTION ===\n');
 
       setIsRecording(false);
       setSessionId(null);
@@ -177,6 +240,44 @@ export default function LiveTranscriptionPage() {
       confidence: 0.95,
     };
     setTranscripts(prev => [...prev, testTranscript]);
+  };
+
+  // Export transcripts as text file
+  const exportTranscripts = () => {
+    const finalTranscripts = transcripts.filter(t => !t.isPartial);
+    
+    if (finalTranscripts.length === 0) {
+      alert('No transcripts to export');
+      return;
+    }
+
+    // Create transcript content
+    const content = [
+      '=== TRANSCRIPTION SESSION ===',
+      `Session ID: ${sessionId || 'N/A'}`,
+      `Export Date: ${new Date().toISOString()}`,
+      `Total Transcripts: ${finalTranscripts.length}`,
+      '',
+      '=== FULL TRANSCRIPT ===',
+      '',
+      ...finalTranscripts.map((t, index) => `${index + 1}. [${t.timestamp}] ${t.text}`),
+      '',
+      '=== COMBINED TEXT ===',
+      finalTranscripts.map(t => t.text).join(' '),
+      '',
+      '=== END OF TRANSCRIPTION ==='
+    ].join('\n');
+
+    // Create and download file
+    const blob = new Blob([content], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `transcript-${new Date().toISOString().slice(0, 19).replace(/:/g, '-')}.txt`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
   };
 
   return (
@@ -262,6 +363,13 @@ export default function LiveTranscriptionPage() {
               className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors"
             >
               Test UI
+            </button>
+            <button
+              onClick={exportTranscripts}
+              disabled={transcripts.length === 0}
+              className="bg-purple-600 hover:bg-purple-700 disabled:bg-gray-400 text-white px-6 py-2 rounded-lg font-medium transition-colors"
+            >
+              Export Transcripts
             </button>
           </div>
         </div>
