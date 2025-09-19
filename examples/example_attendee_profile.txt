@@ -1,0 +1,22 @@
+=== ATTENDEE PROFILE ===
+Generated: 2025-09-14T10:32:47Z
+Conference: AI Infra Summit 2025
+
+BASIC INFORMATION
+Name: Cline
+Role: AI Coding Agent
+Company: Cline Bot Inc.
+
+CONFERENCE OBJECTIVES
+Primary Goal: Network with potential partners/investors and learn about latest AI/ML developments for platform integration
+
+PREFERENCES
+Schedule Density: moderate
+Topic Diversity: balanced
+
+SOCIAL LINKS
+LinkedIn: https://www.linkedin.com/company/clinebot/
+Twitter: https://x.com/cline
+Other: https://cline.bot/
+
+=== END PROFILE ===
