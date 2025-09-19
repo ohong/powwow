@@ -20,13 +20,10 @@ type MessageRole = "system" | "user";
 type StepId =
   | "conference"
   | "name"
-  | "role"
   | "social"
-  | "objective"
+  | "motivation"
   | "density"
-  | "diversity"
-  | "topics"
-  | "extra";
+  | "notes";
 
 type StepType = "freeText" | "options" | "multiSelect";
 
@@ -53,9 +50,9 @@ type ProfileAnswers = Partial<Record<StepId, string | string[]>>;
 const STEP_CONFIG: StepConfig[] = [
   {
     id: "conference",
-    prompt: "To get started, tell me which conference you're going to next.",
+    prompt: "Share the link to the conference you're heading to next.",
     type: "freeText",
-    placeholder: "e.g. TechCrunch Disrupt 2025",
+    placeholder: "https://conference-website.com",
   },
   {
     id: "name",
@@ -64,26 +61,20 @@ const STEP_CONFIG: StepConfig[] = [
     placeholder: "Your name",
   },
   {
-    id: "role",
-    prompt: "What role and company should I keep in mind?",
-    type: "freeText",
-    placeholder: "e.g. Head of Product at Powwow",
-  },
-  {
     id: "social",
-    prompt: "Any social links you'd like me to reference?",
+    prompt: "Drop a social link I can reference (optional).",
     type: "freeText",
-    placeholder: "LinkedIn or X profile (optional)",
+    placeholder: "LinkedIn or X profile",
     optional: true,
     skipCopy: "Skip for now",
   },
   {
-    id: "objective",
-    prompt: "What's your primary objective for this conference?",
+    id: "motivation",
+    prompt: "What's your main motivation for going to this conference?",
     type: "options",
     helper: "Choose one or add your own",
     options: [
-      "Make high-value connections",
+      "Meet future collaborators",
       "Discover emerging technology",
       "Raise visibility for my team",
       "Find partners or investors",
@@ -102,36 +93,11 @@ const STEP_CONFIG: StepConfig[] = [
     ],
   },
   {
-    id: "diversity",
-    prompt: "How should we balance your topics?",
-    type: "options",
-    options: [
-      "Focused on one theme",
-      "Balanced variety",
-      "Exploratory across many tracks",
-    ],
-  },
-  {
-    id: "topics",
-    prompt: "Which topics or themes excite you right now?",
-    type: "multiSelect",
-    helper: "Select a few and add your own",
-    options: [
-      "AI infrastructure",
-      "Product strategy",
-      "Go-to-market motions",
-      "Fundraising",
-      "Developer tooling",
-      "Enterprise adoption",
-      "Partnerships",
-      "Customer stories",
-    ],
-  },
-  {
-    id: "extra",
-    prompt: "Any must-meet people, companies, or sessions?",
+    id: "notes",
+    prompt:
+      "What else should I keep in mind when personalising your schedule for this conference? E.g. preferences, must-see sessions or companies, topics to focus on, etc.",
     type: "freeText",
-    placeholder: "Optional notes",
+    placeholder: "E.g. See the Vision keynote, meet the infra team at Earth AI...",
     optional: true,
     skipCopy: "Nothing specific",
   },
@@ -166,57 +132,31 @@ const floatToPCM16 = (buffer: Float32Array) => {
   return pcmBuffer;
 };
 
-const buildSummary = (profile: ProfileAnswers) => {
+const findNearestSampleRate = (value: number) => {
+  const supported = [8000, 16000, 32000, 44100, 48000];
+  if (supported.includes(value)) {
+    return value;
+  }
+  let nearest = supported[0];
+  let smallestDelta = Math.abs(value - nearest);
+  for (let index = 1; index < supported.length; index += 1) {
+    const candidate = supported[index];
+    const delta = Math.abs(value - candidate);
+    if (delta < smallestDelta) {
+      nearest = candidate;
+      smallestDelta = delta;
+    }
+  }
+  return nearest;
+};
+
+const buildCompletionMessage = (profile: ProfileAnswers) => {
   const conference = isNonEmptyString(profile.conference)
     ? profile.conference
-    : "TBD";
-  const name = isNonEmptyString(profile.name)
-    ? profile.name
-    : "Unknown attendee";
-  const role = isNonEmptyString(profile.role)
-    ? profile.role
-    : "Role still open";
-  const social = isNonEmptyString(profile.social)
-    ? profile.social
-    : "No social links shared";
-  const objective = isNonEmptyString(profile.objective)
-    ? profile.objective
-    : "We will refine your goals together.";
-  const density = isNonEmptyString(profile.density)
-    ? profile.density
-    : "We will pace each day together.";
-  const diversity = isNonEmptyString(profile.diversity)
-    ? profile.diversity
-    : "We will balance your topics on the fly.";
-  const topics =
-    Array.isArray(profile.topics) && profile.topics.length > 0
-      ? formatList(profile.topics)
-      : "We will keep the agenda flexible.";
-  const extra = isNonEmptyString(profile.extra) ? profile.extra : "";
+    : "your conference";
+  const name = isNonEmptyString(profile.name) ? profile.name : "there";
 
-  const lines = [
-    "Perfect. That's everything I need.",
-    "",
-    `Conference: ${conference}`,
-    `Name: ${name}`,
-    `Role and company: ${role}`,
-    `Social: ${social}`,
-    `Primary objective: ${objective}`,
-    `Schedule pace: ${density}`,
-    `Topic approach: ${diversity}`,
-    `Priority topics: ${topics}`,
-  ];
-
-  if (extra) {
-    lines.push(`Extra notes: ${extra}`);
-  }
-
-  lines.push(
-    "",
-    "Next I'll translate this into a personalized conference playbook for you.",
-  );
-
-  return lines.join("\n");
+  return `All set, ${name}! I'll craft a personalised plan for ${conference}.`;
 };
 
 const HookArrow = ({
@@ -300,6 +240,48 @@ export default function Home() {
   const currentStep =
     stepIndex < STEP_CONFIG.length ? STEP_CONFIG[stepIndex] : undefined;
   const displayMessages = messages;
+
+  const persistProfile = useCallback(async (answers: ProfileAnswers) => {
+    const toText = (value: unknown) => {
+      if (Array.isArray(value)) {
+        return value
+          .map((item) => (typeof item === "string" ? item.trim() : ""))
+          .filter(Boolean)
+          .join(", ");
+      }
+      if (typeof value === "string") {
+        return value.trim();
+      }
+      return "";
+    };
+
+    const payload = {
+      conference: toText(answers.conference),
+      name: toText(answers.name),
+      social: toText(answers.social),
+      motivation: toText(answers.motivation),
+      density: toText(answers.density),
+      notes: toText(answers.notes),
+    };
+
+    try {
+      const response = await fetch("/api/profile", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        const message = await response.text();
+        throw new Error(message || "Request failed");
+      }
+    } catch (error) {
+      console.error("Error saving attendee profile:", error);
+      alert(
+        "We couldn't save your profile details. Please refresh and try again.",
+      );
+    }
+  }, []);
 
   const stopRecording = useCallback(() => {
     const liveSession = sessionRef.current;
@@ -396,10 +378,10 @@ export default function Home() {
       const session = liveClient.startSession({
         encoding: "wav/pcm",
         bit_depth: 16,
-        sample_rate: Math.round(audioContext.sampleRate),
+        sample_rate: findNearestSampleRate(Math.round(audioContext.sampleRate)),
         channels: 1,
         model: "solaria-1",
-        endpointing: 300,
+        endpointing: 0.3,
         language_config: {
           languages: ["en"],
           code_switching: true,
@@ -422,6 +404,12 @@ export default function Home() {
       };
 
       const handleError = (error: unknown) => {
+        if (error && typeof error === "object") {
+          const details = (error as { responseBody?: unknown }).responseBody;
+          if (details) {
+            console.error("Transcription error detail:", details);
+          }
+        }
         console.error("Transcription error:", error);
         stopRecording();
       };
@@ -556,6 +544,8 @@ export default function Home() {
           };
         })();
 
+    const upcomingStep = STEP_CONFIG[stepIndex + 1];
+
     setProfile(nextProfile);
     setMessages((prev) => {
       const nextMessages: Message[] = [
@@ -567,7 +557,6 @@ export default function Home() {
         },
       ];
 
-      const upcomingStep = STEP_CONFIG[stepIndex + 1];
       if (upcomingStep) {
         nextMessages.push({
           id: `system-${upcomingStep.id}-${Date.now()}`,
@@ -578,7 +567,7 @@ export default function Home() {
         nextMessages.push({
           id: "system-summary",
           role: "system",
-          content: buildSummary(nextProfile),
+          content: buildCompletionMessage(nextProfile),
         });
       }
 
@@ -586,6 +575,10 @@ export default function Home() {
     });
 
     setStepIndex((prev) => prev + 1);
+
+    if (!upcomingStep) {
+      void persistProfile(nextProfile);
+    }
   };
 
   const handleTextSubmit = (event: FormEvent<HTMLFormElement>) => {
@@ -1184,16 +1177,21 @@ export default function Home() {
               {displayMessages.map((message) => {
                 const isSystem = message.role === "system";
                 return (
-                  <div key={message.id} className="text-left">
+                  <div
+                    key={message.id}
+                    className={
+                      isSystem
+                        ? "flex justify-start"
+                        : "flex justify-end"
+                    }
+                  >
                     {isSystem ? (
                       <p className="max-w-xl text-base leading-relaxed text-neutral-700">
                         {message.content}
                       </p>
                     ) : (
-                      <div className="inline-flex max-w-xl rounded-full bg-neutral-100 px-4 py-2 text-sm text-neutral-800">
-                        <span className="leading-relaxed">
-                          {message.content}
-                        </span>
+                      <div className="inline-flex max-w-xl rounded-3xl bg-neutral-100 px-5 py-3 text-sm font-semibold leading-relaxed text-neutral-900">
+                        <span className="font-semibold">{message.content}</span>
                       </div>
                     )}
                   </div>

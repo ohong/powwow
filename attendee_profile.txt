@@ -1,0 +1,13 @@
+=== ATTENDEE PROFILE ===
+Generated: 2025-09-19T23:34:32.021Z
+
+Conference Link: Techcrunch Disrupt
+Name: Oscar
+Social: https://x.com/oscrhong
+Main Motivation: Meet future collaborators
+Schedule Density Preference: Light with breathing room
+
+Additional Notes:
+meet the infra team at OpenAI
+
+=== END PROFILE ===
