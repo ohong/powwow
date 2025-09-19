@@ -54,14 +54,13 @@ Return a UTF-8 JSON object with the exact schema below (no markdown, no commenta
   "company_brief": { "positioning": string, "recent_moves": string, "competitive_angle": string },
   "speaker_brief": { "bio": string, "conference_goal": string, "conversation_starter": string },
   "smart_questions": [ string, string, string ],
-  "follow_up_actions": [ string, string ],
   "sources": [ { "title": string, "url": string } ]
 }
 
 Guidelines:
 - Keep every field under 700 characters.
 - When data is missing, write concise best-effort guidance and note the gap (e.g., "Speaker profile not found; suggest asking about ...").
-- Tailor tone for a technical attendee.
+- Tailor tone for a technical attendee with only a few minutes to prep.
 - Leverage conference context to set expectations (size of audience, track tone, etc.).
 ```
 
