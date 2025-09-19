@@ -1,0 +1,219 @@
+[
+  {
+    "id": "markmdev",
+    "name": "Mark M.",
+    "city": "San Francisco Bay Area",
+    "country_code": "US",
+    "position": "Fullstack Developer | Node.JS, Express.JS, PostgreSQL, React/Next.js",
+    "about": "Backend-focused full-stack developer specializing in Node.js applications that scale. Currently shipped: Lingput.dev - AI-Powered Language Learning Platform 🚀 RECENT WINS: - Reduced application load time from 600 ms to 85 ms (-85.8%) by implementing caching for frequent database queries. - Resolved UI blocking issue during long-running story generation (~30s) by implementing a background job queue with BullMQ + Redis and streaming real-time progress updates to the frontend. - Developed automated CI/CD pipeline, reducing deployment time from 25 minutes to 5 minutes through full automation. - Eliminated 1.3s request latency during accessToken refresh by migrating session management from relational DB to Redis. - Architected clean, testable backend with layered architecture (Controller/Service/Repository) and dependency injection SPECIALIZING IN: Building backend systems that don't break under pressure — API design, database optimization, caching strategies, job queues, containerization, and production deployments. TECHNICAL SKILLS - Backend: Node.js, Express.js, TypeScript, JavaScript, Python, PostgreSQL, Prisma, Redis, BullMQ, GraphQL, MongoDB, Socket.io - AI/ML: OpenAI Agents SDK, CrewAI, LangGraph, MCP, OpenAI API, Anthropic API - Frontend: React, Next.js, TypeScript, Tailwind CSS, Astro - Cloud & DevOps, Tools: AWS, EC2, S3, Lambda, DO Docker, NGINX, CI/CD, GitHub Actions, Git, Jest - Architecture: System Design, Microservices, Caching, Database Optimization, API Design 📍 San Jose, CA | 🌍 25 countries explored | 🛠️ Always building something My personal website: https://markmdev.com/ 💼 Open to backend developer and full-stack developer roles — let's connect!",
+    "current_company": {
+      "name": "Self-employed",
+      "title": "Fullstack Developer | Node.JS, Express.JS, PostgreSQL, React/Next.js",
+      "location": null
+    },
+    "experience": [
+      {
+        "title": "Lingput — Full-Stack Developer (Personal Project)",
+        "description": "Lingput - AI-Powered Language Learning Platform\n\nProduction-grade web application delivering personalized AI-generated stories for language learners\n\n\n🎯 Impact & Performance\n\n- Eliminated slow page loads - reduced response times from 600ms to 85ms by implementing Redis caching to minimize database queries\n\n- Transformed blocking UX - moved 30-second story generation process to background jobs with real-time progress updates using BullMQ\n\n- Streamlined deployment pipeline - reduced release cycle from 25 minutes to 5 minutes with zero deployment failures\n\n\n⚡ Technical Architecture\n\n\nBackend: Node.js, Express.js, PostgreSQL, Prisma ORM with dependency injection for scalability\n\nFrontend: Next.js, React, TypeScript, Tailwind CSS for responsive user experience\n\nInfrastructure: Docker containerization, NGINX reverse proxy, Redis + BullMQ job processing\n\nDevOps: GitHub Actions CI/CD, automated testing, AWS/DigitalOcean deployment\n\n\n🔧 Key Engineering Solutions\n\n\nAsync job queue system - handles compute-intensive AI story generation without blocking user requests\n\nIntelligent caching layer - dramatically improved response times for frequently accessed content\n\nClean architecture patterns - implemented dependency injection enabling comprehensive unit testing\n\nFull containerization - standardized development environment setup\n\n\n🚀 Live Production\n\n\nDemo: https://lingput.dev\n\nCode: https://github.com/markmdev/lingput",
+        "description_html": "Lingput - AI-Powered Language Learning Platform <br> Production-grade web application delivering personalized AI-generated stories for language learners <br> <br> &#x1F3AF; Impact &amp; Performance <br> - Eliminated slow page loads - reduced response times from 600ms to 85ms by implementing Redis caching to minimize database queries <br> - Transformed blocking UX - moved 30-second story generation process to background jobs with real-time progress updates using BullMQ <br> - Streamlined deployment pipeline - reduced release cycle from 25 minutes to 5 minutes with zero deployment failures <br> <br> &#x26A1; Technical Architecture <br> <br> Backend: Node.js, Express.js, PostgreSQL, Prisma ORM with dependency injection for scalability <br> Frontend: Next.js, React, TypeScript, Tailwind CSS for responsive user experience <br> Infrastructure: Docker containerization, NGINX reverse proxy, Redis + BullMQ job processing <br> DevOps: GitHub Actions CI/CD, automated testing, AWS/DigitalOcean deployment <br> <br> &#x1F527; Key Engineering Solutions <br> <br> Async job queue system - handles compute-intensive AI story generation without blocking user requests <br> Intelligent caching layer - dramatically improved response times for frequently accessed content <br> Clean architecture patterns - implemented dependency injection enabling comprehensive unit testing <br> Full containerization - standardized development environment setup <br> <br> &#x1F680; Live Production <br> <br> Demo: https://lingput.dev <br> Code: https://github.com/markmdev/lingput",
+        "start_date": "Jan 2025",
+        "end_date": "Aug 2025",
+        "company": "Self-employed",
+        "company_logo_url": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f"
+      }
+    ],
+    "url": "https://id.linkedin.com/in/markmdev",
+    "educations_details": "Southern New Hampshire University",
+    "education": [
+      {
+        "title": "Southern New Hampshire University",
+        "degree": "Bachelor of Science - BS",
+        "field": "Computer Science",
+        "url": "https://www.linkedin.com/school/snhu/?trk=public_profile_school_profile-section-card_image-click",
+        "description": null,
+        "description_html": null,
+        "institute_logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQFC82nfN06ozA/company-logo_100_100/company-logo_100_100/0/1660327352688/snhu_logo?e=2147483647&v=beta&t=aSB6cpRAlZIUFWLrJgFfFPDuQZDjzHpB37dXBdI6fAE"
+      }
+    ],
+    "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQHftA5BYINX-A/profile-displayphoto-scale_200_200/B4EZkVtMQnGYAc-/0/1757005792714?e=2147483647&v=beta&t=TB6eTRV4TqVhdUidgUxOjxlDjDiKMTh_Y32B_jRPB28",
+    "courses": [
+      {
+        "subtitle": "-",
+        "title": "Docker and Kubernetes: The Complete Guide"
+      }
+    ],
+    "languages": [
+      {
+        "subtitle": "Full professional proficiency",
+        "title": "English"
+      }
+    ],
+    "certifications": [
+      {
+        "meta": "Issued Aug 2025 Credential ID UC-923b66d1-c113-42a1-aad7-1fb0cc237c3f See credential",
+        "subtitle": "Udemy",
+        "title": "Docker and Kubernetes: The Complete Guide",
+        "credential_url": "https://www.udemy.com/certificate/UC-923b66d1-c113-42a1-aad7-1fb0cc237c3f/?trk=public_profile_see-credential",
+        "credential_id": "UC-923b66d1-c113-42a1-aad7-1fb0cc237c3f"
+      }
+    ],
+    "followers": 101,
+    "connections": 101,
+    "current_company_name": "Self-employed",
+    "projects": [
+      {
+        "title": "Personal Website",
+        "start_date": "Jul 2025",
+        "description": "Personal Website - Windows 95-Inspired Developer PortfolioA performance-optimized static portfolio website combining nostalgic design with modern web standards and perfect accessibility.🎯 Performance & Quality:Perfect Lighthouse scores - 100/100 across Performance, Accessibility, Best Practices, and SEOSub-500ms load times with optimized static site generationZero blocking resources and minimal cumulative layout shift (0.017)⚡ Technical Implementation:Frontend: Astro static site generator, Tailwind CSS, custom component systemPerformance: Optimized asset delivery, lazy loading, and efficient bundlingAccessibility: Semantic HTML, ARIA roles, and keyboard navigation supportDevOps: Automated deployment pipeline with GitHub Actions and Netlify🎨 Design & UX:Authentic Windows 95 UI components with pixel-perfect retro stylingFully responsive design maintaining aesthetic across all device sizesInteractive project showcase and integrated technical blog🚀 Live Production:Demo: https://markmdev.com/Code: https://github.com/markmdev/personal_websiteBuilt to showcase frontend optimization skills while demonstrating attention to performance, accessibility, and user experience standards."
+      },
+      {
+        "title": "Lingput - AI-Powered Language Learning App",
+        "start_date": "Jan 2025",
+        "description": "Lingput - AI-Powered Language Learning PlatformProduction-grade web application delivering personalized AI-generated stories for language learners🎯 Impact & Performance- Eliminated slow page loads - reduced response times from 600ms to 85ms by implementing Redis caching to minimize database queries- Transformed blocking UX - moved 30-second story generation process to background jobs with real-time progress updates using BullMQ- Streamlined deployment pipeline - reduced release cycle from 25 minutes to 5 minutes with zero deployment failures⚡ Technical ArchitectureBackend: Node.js, Express.js, PostgreSQL, Prisma ORM with dependency injection for scalabilityFrontend: Next.js, React, TypeScript, Tailwind CSS for responsive user experienceInfrastructure: Docker containerization, NGINX reverse proxy, Redis + BullMQ job processingDevOps: GitHub Actions CI/CD, automated testing, AWS/DigitalOcean deployment🔧 Key Engineering SolutionsAsync job queue system - handles compute-intensive AI story generation without blocking user requestsIntelligent caching layer - dramatically improved response times for frequently accessed contentClean architecture patterns - implemented dependency injection enabling comprehensive unit testingFull containerization - standardized development environment setup🚀 Live ProductionDemo: https://lingput.devCode: https://github.com/markmdev/lingput"
+      }
+    ],
+    "organizations": [
+      {
+        "title": "Coding United",
+        "membership_type": "-",
+        "start_date": "Sep 2025",
+        "end_date": "Present",
+        "description": "Actively participate in a university-wide programming club focused on collaboration, peer learning, and real-world software development",
+        "membership_number": null
+      },
+      {
+        "title": "The National Society of Leadership and Success",
+        "membership_type": "-",
+        "start_date": "Aug 2025",
+        "end_date": "Present",
+        "description": "Inducted as a member of The National Society of Leadership and Success (NSLS), the nation’s largest accredited leadership honor society. The NSLS develops leadership, communication, and career skills through a program of training, networking, and community action.",
+        "membership_number": null
+      }
+    ],
+    "location": null,
+    "input_url": "https://www.linkedin.com/in/markmdev",
+    "linkedin_id": "markmdev",
+    "activity": [
+      {
+        "interaction": "Liked by Mark M.",
+        "link": "https://www.linkedin.com/posts/thatsean_had-a-great-time-helping-run-the-ai-earth-activity-7374561030498295808-FNO8",
+        "title": "Had a great time helping run the AI + Earth Data event this past Monday at the AWS Builder's Loft here in SF. In particular, I really enjoyed…",
+        "img": "https://media.licdn.com/dms/image/v2/D5622AQG9KjR3xHZBng/feedshare-shrink_800/B56Zle0LciI8Ak-/0/1758232361752?e=2147483647&v=beta&t=7RVAeLcyy6OjCIlQ5dSzqB4Y744mxNpeMuxZP0O5SMI",
+        "id": "7374561030498295808"
+      },
+      {
+        "interaction": "Liked by Mark M.",
+        "link": "https://www.linkedin.com/posts/markmdev_hackathon-developers-siliconvalley-activity-7374112106905772032-h21N",
+        "title": "What an incredible first hackathon experience! 🎉 CodeRabbit The energy was absolutely electric, and I'm still buzzing from the weekend. Our team…",
+        "img": "https://media.licdn.com/dms/image/v2/D4E22AQEWYlvPsD2oKg/feedshare-shrink_800/B4EZlYb3kyKoAk-/0/1758125329236?e=2147483647&v=beta&t=ieUqW4XrY4Wq1RvZmXGlOK-51Im2Duv9oIs_gnD1GxM",
+        "id": "7374112106905772032"
+      },
+      {
+        "interaction": "Shared by Mark M.",
+        "link": "https://www.linkedin.com/posts/markmdev_hackathon-developers-siliconvalley-activity-7374112106905772032-h21N",
+        "title": "What an incredible first hackathon experience! 🎉 CodeRabbit The energy was absolutely electric, and I'm still buzzing from the weekend. Our team…",
+        "img": "https://media.licdn.com/dms/image/v2/D4E22AQEWYlvPsD2oKg/feedshare-shrink_800/B4EZlYb3kyKoAk-/0/1758125329236?e=2147483647&v=beta&t=ieUqW4XrY4Wq1RvZmXGlOK-51Im2Duv9oIs_gnD1GxM",
+        "id": "7374112106905772032"
+      },
+      {
+        "interaction": "Liked by Mark M.",
+        "link": "https://www.linkedin.com/posts/chi-m-1a84b0189_juniordeveloper-womenintech-careerswitcher-activity-7373370427538190336-lgvx",
+        "title": "✨ One year as a Junior Engineer ✨ One year ago, I started my job as a Junior Developer after completing a boot camp. Coming in without a tech…",
+        "img": "https://media.licdn.com/dms/image/v2/D5622AQEFuv9v3Q4OEQ/feedshare-shrink_1280/B56ZlN5UuoHMAs-/0/1757948498431?e=2147483647&v=beta&t=rQilkJXfut_JNco3a-QQxkDp6hCjXUsfdTrP7CnxJuE",
+        "id": "7373370427538190336"
+      },
+      {
+        "interaction": "Liked by Mark M.",
+        "link": "https://www.linkedin.com/posts/krrish-agar_hackathon-coding-llm-activity-7372852017196748800--lkx",
+        "title": "Lovely to participate at CodeRabbit hackathon at the SHACK15 community space. Building a end to end fully automated procurement agent for SME…",
+        "img": "https://media.licdn.com/dms/image/v2/D5622AQEyCrfzbks8-A/feedshare-shrink_2048_1536/B56ZlGh1TRHMAw-/0/1757824900705?e=2147483647&v=beta&t=BMyKxCEq8hWOYkGEb8eQIJr2_wA_uI_QCEL2GpB09tQ",
+        "id": "7372852017196748800"
+      },
+      {
+        "interaction": "Liked by Mark M.",
+        "link": "https://www.linkedin.com/posts/markmdev_hackathon-build-your-ai-teammate-with-coderabbit-activity-7372450216249135104-ZZeK",
+        "title": "Tomorrow I'm going to my very first hackathon! 🚀 Ten years ago, when I was watching Silicon Valley (HBO), I could never have imagined that one day…",
+        "img": "https://media.licdn.com/dms/image/sync/v2/D4E27AQHzLDrEGpzQfA/articleshare-shrink_1280_800/B4EZk5r6PaGYAQ-/0/1757609436621?e=2147483647&v=beta&t=f_yG_jjASG74qqnqAmlIXUu5uVhbub3v_pzg7cEybsY",
+        "id": "7372450216249135104"
+      },
+      {
+        "interaction": "Liked by Mark M.",
+        "link": "https://www.linkedin.com/posts/markmdev_softwaredevelopment-nodejs-fullstackdeveloper-activity-7371580626350526464-QwU0",
+        "title": "Hello, LinkedIn! 👋 After years of writing \"Hello World\" in various programming languages, here's my first one for this platform. I've always been…",
+        "img": "https://media.licdn.com/dms/image/v2/D4E05AQGYlwpwmzqtCg/feedshare-thumbnail_720_1280/B4EZk0ddyNGoA0-/0/1757521766879?e=2147483647&v=beta&t=b8tdWmidG4SDetpvkYOIcLET-BbiQkoxaJNs1Gb4JU8",
+        "id": "7371580626350526464"
+      },
+      {
+        "interaction": "Shared by Mark M.",
+        "link": "https://www.linkedin.com/posts/markmdev_hackathon-build-your-ai-teammate-with-coderabbit-activity-7372450216249135104-ZZeK",
+        "title": "Tomorrow I'm going to my very first hackathon! 🚀 Ten years ago, when I was watching Silicon Valley (HBO), I could never have imagined that one day…",
+        "img": "https://media.licdn.com/dms/image/sync/v2/D4E27AQHzLDrEGpzQfA/articleshare-shrink_1280_800/B4EZk5r6PaGYAQ-/0/1757609436621?e=2147483647&v=beta&t=f_yG_jjASG74qqnqAmlIXUu5uVhbub3v_pzg7cEybsY",
+        "id": "7372450216249135104"
+      },
+      {
+        "interaction": "Liked by Mark M.",
+        "link": "https://www.linkedin.com/posts/pam-mares-99a775192_recruitertips-jobsearchadvice-careergrowth-activity-7371186531954470912-XY-G",
+        "title": "💡 Job seekers — quick insider tip from a recruiter: When you're applying and the system asks: 👉 “Were you referred by someone at the company?” If…",
+        "img": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+        "id": "7371186531954470912"
+      },
+      {
+        "interaction": "Liked by Mark M.",
+        "link": "https://www.linkedin.com/posts/joe--keller_ai-agents-engineering-activity-7371095513317662721-dD9C",
+        "title": "Thoughts on the Real-World Kit that gets you hired as a Junior AI/Software Engineer in 2025 Nowadays, junior roles are getting harder to find, some…",
+        "img": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+        "id": "7371095513317662721"
+      },
+      {
+        "interaction": "Liked by Mark M.",
+        "link": "https://www.linkedin.com/posts/kaanesendemir_from-multiple-rejections-in-2017-to-leading-activity-7371972215954739200-5oWb",
+        "title": "From multiple rejections in 2017 to leading the tech behind a multibillion-dollar enterprise. 8 years made all the difference.",
+        "img": "https://media.licdn.com/dms/image/v2/D4D22AQGC-HwKnsJBSg/feedshare-shrink_800/B4DZk6BpzOHsAg-/0/1757615139194?e=2147483647&v=beta&t=a6Fw5qGcJBJ8aOLkfbnbmi31p3vxxQCwmPU1hWGNmYY",
+        "id": "2017"
+      },
+      {
+        "interaction": "Liked by Mark M.",
+        "link": "https://www.linkedin.com/posts/william-ton28_after-sending-nearly-1000-applications-activity-7362265080085790720-fcmj",
+        "title": "After sending nearly 1,000 applications, I finally got the call that changed everything. I graduated into a turbulent job market in 2023 and wasn't…",
+        "img": "https://media.licdn.com/dms/image/v2/D4E22AQE9kpwEMVsc2g/feedshare-shrink_800/B4EZiwE96eHoAo-/0/1755300765331?e=2147483647&v=beta&t=eIFhGsxKxNQDabDhTgyDaSdHAsifRJZXvIppCy8CH90",
+        "id": "1000"
+      }
+    ],
+    "linkedin_num_id": "1500460057",
+    "banner_image": "https://media.licdn.com/dms/image/v2/D4E16AQEkFErKcp2EoQ/profile-displaybackgroundimage-shrink_200_800/B4EZkWJdlsIoAY-/0/1757013207311?e=2147483647&v=beta&t=Hen3rRcA6o3XZ_oMauL_fl5iWN-iUGYY7Df_u2UYuFw",
+    "honors_and_awards": [
+      {
+        "title": "President’s List",
+        "publication": "Southern New Hampshire University (SNHU)",
+        "date": "2025-09-01T00:00:00.000Z",
+        "description": "Recognized for academic excellence by being named to the Southern New Hampshire University President’s List for Summer 2025, awarded to full-time undergraduate students who achieve a GPA of 3.7 or higher during the term."
+      },
+      {
+        "title": "Honor Roll – 2025 C-3 (May – Jun)",
+        "publication": "Southern New Hampshire University (SNHU)",
+        "date": "2025-07-01T00:00:00.000Z",
+        "description": "Recognized for academic excellence with a GPA of 3.5+ during the 2025 C-3 (May – Jun) term. Honor Roll is a term-specific achievement established by SNHU in 2022 to acknowledge outstanding academic performance."
+      },
+      {
+        "title": "Honor Roll – 2025 C-2 (Mar – Apr)",
+        "publication": "Southern New Hampshire University (SNHU)",
+        "date": "2025-05-01T00:00:00.000Z",
+        "description": "Recognized for academic excellence with a GPA of 3.5+ during the 2025 C-3 (May – Jun) term. Honor Roll is a term-specific achievement established by SNHU in 2022 to acknowledge outstanding academic performance.Recognized for academic excellence with a GPA of 3.5+ during the 2025 C-3 (May – Jun) term. Honor Roll is a term-specific achievement established by SNHU in 2022 to acknowledge outstanding academic performance."
+      }
+    ],
+    "similar_profiles": [],
+    "default_avatar": false,
+    "memorialized_account": false,
+    "bio_links": [],
+    "first_name": "Mark",
+    "last_name": "M.",
+    "timestamp": "2025-09-19T19:29:42.797Z",
+    "input": {
+      "url": "https://www.linkedin.com/in/markmdev"
+    },
+    "discovery_input": {
+      "first_name": "Mark",
+      "last_name": "Morgan"
+    }
+  }
+]
