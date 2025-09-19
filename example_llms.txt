@@ -1,4 +1,4 @@
-     Disrupt 2025 | TechCrunch                                                                                                        
+     Agenda - Disrupt 2025 | TechCrunch                                                                                    
 
 [![TechCrunch](https://techcrunch.com/wp-content/themes/tc-24/assets/svg/tc-lockup-green.svg)](https://techcrunch.com/)
 
@@ -20,393 +20,1781 @@ Mobile Menu Toggle
     *   [Volunteer](https://techcrunch.com/events/tc-disrupt-2025/volunteer/)
     *   [Startup Battlefield](https://techcrunch.com/events/tc-disrupt-2025/startup-battlefield/)
 
-# TechCrunch Disrupt 2025
+# Disrupt 2025 Agenda
 
-TechCrunch Disrupt is where you’ll find innovation for every stage of your startup journey. Whether you’re a budding founder with a revolutionary idea, a seasoned startup looking to scale, or an investor seeking the next big thing, Disrupt offers unparalleled resources, connections, and expert insights to propel your venture forward.
-
-[Register Now](https://techcrunch.com/events/tc-disrupt-2025/tickets/)
-
-[Book Exhibit Table](https://techcrunch.com/events/tc-disrupt-2025/exhibit/)
-
-October 27 – 29, 2025
-
-San Francisco
-
-[Register Now](https://techcrunch.com/events/tc-disrupt-2025/tickets/)
-
-[Book Exhibit Table](https://techcrunch.com/events/tc-disrupt-2025/exhibit/)
-
-## Find innovation for every stage at Disrupt 2025
-
-From idea to IPO, Disrupt 2025 will map out the path for startups to achieve their next major milestone.
-
-![Disrupt stage crowd](https://techcrunch.com/wp-content/uploads/2024/06/stage_1200x600.png?w=680)
-
-### Join 10,000 startup and VC leaders
-
-Looking to meet founders, connect with investors, seek advice, or land your next big role? Disrupt is the must-attend event to make it all happen in person.
-
-![Disrupt breakout](https://techcrunch.com/wp-content/uploads/2024/05/breakout_1200x600_a9107e.png?w=680)
-
-### Build and scale your business faster
-
-Disrupt is more than a startup launchpad — it’s a growth accelerator. Dive into sessions on scaling, sales, and leadership, and connect with the investors and tech experts who can help take your business to the next level.
-
-![Disrupt Vinod Khosla](https://techcrunch.com/wp-content/uploads/2024/12/Vinod-khosla-disrupt-1200x600-1.png?w=680)
-
-### Gain insights from today’s tech giants
-
-Tap into the wisdom of founders and tech titans at Disrupt. From actionable tips to hard-won lessons, they’ll share what works (and what doesn’t) to guide you as you build your own path forward.
+New sessions are added weekly. Check back in to explore more sessions.
 
 * * *
 
-## Disrupt 2025 featured speakers
+*   [26 October](#agenda-day-422fcb3a-9b86-4683-96fc-0b60ab13e09e)
+*   [27 October](#agenda-day-2c082216-ea98-44a1-b866-671a995307a1)
+*   [28 October](#agenda-day-c1c189eb-e6cb-4292-b5f3-666e6cef46de)
+*   [29 October](#agenda-day-ce9a52f0-6554-4853-822a-79ef21d56017)
 
-![Roelof Botha](https://techcrunch.com/wp-content/uploads/2015/09/Roelof-Botha-e1750782761586.webp?w=300)
+Filter by Session Type Session Type AI AI + Science & Health AI + Hardware AI + Policy AI + Defense AI + Creativity AI + Agents Crypto Cybersecurity EdTech Fintech Founder Fundraising Inclusion Investor Pitches Podcast Reception Space Startup Startup Battlefield StrictlyVC Transportation Venture Capital Marketing LP Filter by Location Location Breakout Stage Builders Stage Deal Flow Cafe Expo Hall Industry Stage- AI Industry Stage- Going Public Industry Stage- Space Networking Lounge Pitch Showcase Stage Press Room Recharge Zone Registration Roundtable 1 Roundtable 2 Roundtable 3 Disrupt Stage Filter by Pass Type Pass Type Investor Pass
 
-Roelof Botha
+## 26 October
 
-Partner Sequoia Capital
+No sessions on this day. Reset filters or choose another day.
 
-View Profile
+## October 27th
 
-![Chris Britt](https://techcrunch.com/wp-content/uploads/2025/09/CB-Option-3.jpg?w=300)
+8:00AM – 8:35AM
 
-Chris Britt
+Industry Stage- Space Space
 
-CEO and Co-Founder Chime
+### Investing at the Edge of Space
 
-View Profile
+[Celeste Ford](https://techcrunch.com/author/celeste-ford/)
 
-![Jason Citron](https://techcrunch.com/wp-content/uploads/2025/09/Jason_Citron_HOF15-8363-e1756902926351.jpg?w=300)
+Managing Director Stella Ventures
 
-Jason Citron
+![Chris Morales](https://techcrunch.com/wp-content/uploads/2025/07/Chris-Morales-Point72-Ventures.png?w=150)
 
-Founder & Former CEO Discord
+[Chris Morales](https://techcrunch.com/author/chris-morales/)
 
-View Profile
+Partner Point72 Ventures
 
-![David George](https://techcrunch.com/wp-content/uploads/2025/04/DG-Headshot.jpg?w=300)
+As space becomes a bigger focus for both governments and private markets, investors are navigating new opportunities and new risks. Join these top investors to break down where capital is flowing, what startups need to show to stand out, and how the funding landscape for space is evolving.
 
-David George
+8:35AM – 9:40AM
 
-General Partner Andreessen Horowitz
+Industry Stage- Space Space Presented by [![](https://techcrunch.com/wp-content/uploads/2024/05/AeroLogo_Wide_Indigo.png?w=90)]( http://www.aerospace.org) 
 
-View Profile
+### Aerospace Startup Showcase: Solving the Hardest Problems in Space
 
-![Elad Gil](https://techcrunch.com/wp-content/uploads/2017/01/Screenshot-2025-08-06-at-1.40.57PM.png?w=300)
+AI is transforming countless industries, and space is no exception. The Aerospace Corporation is hosting a pitch-off at TechCrunch Disrupt to showcase startups working on innovative AI solutions to the hardest problems in space exploration, orbital intelligence, and infrastructure.
 
-Elad Gil
+9:00AM – 9:30AM
 
-CEO Gil & Co
+Builders Stage
 
-View Profile
+### Equity Live
 
-![Eunice Kim](https://techcrunch.com/wp-content/uploads/2025/06/Eunice-Kim-e1750867240234.jpg?w=300)
+Please join the TechCrunch team for a live episode of Equity, TechCrunch’s flagship podcast diving deep into the business of startups, tech and venture capital.
 
-Eunice Kim
+9:30AM – 10:10AM
 
-Chief Product Officer Netflix
+Builders Stage
 
-View Profile
+### How to Raise a Series A in 2026
 
-![Aaron Levie](https://techcrunch.com/wp-content/uploads/2021/01/trxeap4eunmjttlctfuk.jpg?w=300)
+![Thomas Krane](https://techcrunch.com/wp-content/uploads/2025/08/Thomas-Krane_2019-1-e1754502905655.jpg?w=150)
 
-Aaron Levie
+[Thomas Krane](https://techcrunch.com/author/thomas-krane/)
 
-Co-Founder & CEO Box
+Managing Director Insight Partners
 
-View Profile
+![Katie Stanton](https://techcrunch.com/wp-content/uploads/2021/01/vy6rawcusgpmnngfd8xq.jpg?w=150)
 
-![Tekedra Mawakana](https://techcrunch.com/wp-content/uploads/2024/05/B7BE1E60-4FE5-44F0-B147-104146598172-1.jpeg?w=300)
+[Katie Stanton](https://techcrunch.com/author/katie-stanton/)
 
-Tekedra Mawakana
+Founder and General Partner Moxxie Ventures
+
+![Sangeen Zeb](https://techcrunch.com/wp-content/uploads/2024/04/GV_Zeb_Sangeen_0099_rt-e1714019545469.jpg?w=150)
+
+[Sangeen Zeb](https://techcrunch.com/author/sangeen-zeb/)
+
+General Partner GV (Google Ventures)
+
+In this no-fluff panel, top VCs reveal what really gets them to offer a term sheet with a healthy valuation from metrics that matter to the pitch mistakes that kill deals. Learn how to position your company for its first priced, institutional investment.
+
+9:30AM – 10:20AM
+
+Breakout Stage AI + Agents
+
+### From Vibes to Velocity: How AI Tools Can Help You Achieve Your Development Goals
+
+![Tim Rogers](https://techcrunch.com/wp-content/uploads/2025/06/Tim-Rogers_Staff-Product-Manager.jpg?w=150)
+
+[Tim Rogers](https://techcrunch.com/author/tim-rogers/)
+
+Staff Product Manager, GitHub Copilot GitHub
+
+With the recent surge in popularity of vibe coding, developers are looking at every option to help them work faster, think bigger, and commit more secure, high-quality code. GitHub Product Manager, Tim Rogers is pioneering agentic coding at scale with GitHub Copilot, the AI-powered peer programming tool used by more than 15M people to scale their impact. During this breakout session, Tim will give the audience a first-hand look at how GitHub’s latest innovations, insights, and AI-powered tools are changing the future of software development and advancing developer workflows in an increasingly autonomous world.
+
+9:40AM – 10:05AM
+
+Industry Stage- Space Space
+
+### From Robinhood to Aetherflux: Baiju Bhatt’s Next Frontier
+
+![Baiju Bhatt](https://techcrunch.com/wp-content/uploads/2024/05/Baiju-Bhatt_Headshot.jpg?w=150)
+
+[Baiju Bhatt](https://techcrunch.com/author/baiju-bhatt/)
+
+Founder and CEO / Co-Founder and Board Director Aetherflux / Robinhood
+
+As the co-founder of Robinhood, Baiju Bhatt helped redefine access to investing for an entire generation. Now he’s back with Aetherflux, a company operating at the cutting edge of aerospace and deep tech. In this fireside chat, Bhatt will share why he’s diving into space, what he’s learned about building in radically different industries, and how founder experience translates when the stakes are literally orbital.
+
+10:00AM – 11:15AM
+
+Disrupt Stage Startup Battlefield
+
+### The Startup Battlefield – Session 1
+
+![Charles Hudson](https://techcrunch.com/wp-content/uploads/2022/05/Charles-Hudson.jpg?w=150)
+
+[Charles Hudson](https://techcrunch.com/author/charles-hudson/)
+
+Managing Partner Precursor Ventures
+
+![Cathy Friedman](https://techcrunch.com/wp-content/uploads/2025/09/Screenshot-2025-09-11-at-5.00.32PM-e1758044680532.png?w=150)
+
+[Cathy Friedman](https://techcrunch.com/author/cathy-friedman/)
+
+Executive Venture Partner GV
+
+![Doug Pepper](https://techcrunch.com/wp-content/uploads/2015/04/Doug-Pepper-1.jpg?w=150)
+
+[Doug Pepper](https://techcrunch.com/author/doug-pepper/)
+
+General Partner ICONIQ
+
+![Nicolas Sauvage](https://techcrunch.com/wp-content/uploads/2025/07/Nicolas-headshot_face.jpg?w=150)
+
+[Nicolas Sauvage](https://techcrunch.com/author/nicolas-sauvage/)
+
+President TDK Ventures
+
+TechCrunch’s iconic startup competition is back, as entrepreneurs from around the world pitch expert judges and vie for the prestigious Startup Battlefield Cup and equity-free $100,000.
+
+10:00AM – 10:30AM
+
+Roundtable 1 AI
+
+### Future of Construction: The Role of AI and Data in the Field and the Office
+
+![Austin Yount](https://techcrunch.com/wp-content/uploads/2025/08/images_2442e5.jpg?w=150)
+
+[Austin Yount](https://techcrunch.com/author/austin-yount/)
+
+Partner Brick & Mortar Ventures
+
+In ‘Future of Construction: The Role of AI and Data in the Field and the Office,’ Austin Yount of Brick & Mortar Ventures explores how artificial intelligence and data-driven tools are reshaping construction workflows—both on-site and back-office—to boost efficiency, improve decision-making, and accelerate innovation across the built environment.
+
+10:05AM – 10:35AM
+
+Industry Stage- Space Space
+
+### Dual-use and the Rise of Private Investment 
+
+The lines between commercial and defense technology have never been thinner and private capital is racing to fund the next generation of dual-use companies. Startup leaders join us to explore how startups are navigating this complex landscape, the opportunities (and responsibilities) that come with building dual-use tech, and what it means for the future of the aerospace industry.
+
+10:10AM – 10:30AM
+
+Builders Stage Presented by [![](https://techcrunch.com/wp-content/uploads/2025/08/Epic_Horizontal_Aircraft-9.jpg?w=90)]( https://epicaircraft.com/) 
+
+### Flying into the Future: AI Is Fueling Aviation
+
+![Tanya Eves](https://techcrunch.com/wp-content/uploads/2025/09/Tanya-Headshot-e1757019771925.jpeg?w=150)
+
+[Tanya Eves](https://techcrunch.com/author/tanya-eves/)
+
+Board Member & Head of Business Development Epic Aircraft
+
+![Doug King](https://techcrunch.com/wp-content/uploads/2025/09/39e1ce99-96cc-47f9-be2b-a7655b449fa1-e1757020013775.jpg?w=150)
+
+[Doug King](https://techcrunch.com/author/doug-king/)
+
+Chief Executive Officer Epic Aircraft
+
+The aviation industry has long been slowed by legacy systems and lengthy certification processes — but Epic Aircraft is proving change is possible. The Oregon-based disruptor earned FAA type certification for its E1000 AX in July 2025 and is now pioneering the use of artificial intelligence across design, testing, certification workflows, and customer support. By embracing smart automation, Epic is scaling faster and more efficiently than traditional manufacturers. In this session, attendees will get an inside look at how AI is reshaping the future of flight, what aerospace can learn from startup culture, and how innovation is accelerating speed, safety, and performance. Discover what happens when Silicon Valley thinking meets aviation’s next frontier.
+
+10:30AM – 11:10AM
+
+Builders Stage
+
+### How Much Salary and Equity Should You Really Offer Early Employees?
+
+![Randi Jakubowitz](https://techcrunch.com/wp-content/uploads/2025/05/Headshots_Oct12-48-1-1-e1747152369626.jpg?w=150)
+
+[Randi Jakubowitz](https://techcrunch.com/author/randi-jakubowitz/)
+
+Head of Operations & Talent 645 Ventures
+
+![Rebecca Lee Whiting](https://techcrunch.com/wp-content/uploads/2023/12/R-Lee-headshot-2021.12.29.jpg?w=150)
+
+[Rebecca Lee Whiting](https://techcrunch.com/author/rebecca-lee-whiting/)
+
+Fractional General Counsel for Early-Stage Startups Epigram Legal P.C.
+
+![Yin Wu](https://techcrunch.com/wp-content/uploads/2021/06/yinwu.jpg?w=150)
+
+[Yin Wu](https://techcrunch.com/author/yin-wu/)
+
+CEO, Founder Pulley
+
+Early hires shape your startup’s future but only if you can attract and keep them. This panel dives into building equity and benefits packages that compete with big tech without breaking your burn rate. Hear real-world strategies to align incentives, boost retention, and build a team that scales.
+
+10:30AM – 11:20AM
+
+Breakout Stage Startup
+
+### Build First, Fund Later: The Founder's Guide to Bootstrapping Breakout Startups
+
+![Tarun Raisoni](https://techcrunch.com/wp-content/uploads/2025/07/1608532785032.jpeg?w=150)
+
+[Tarun Raisoni](https://techcrunch.com/author/tarun-raisoni/)
+
+CEO & Co-Founder Gruve
+
+In a world obsessed with fast funding and flashy valuations, Tarun Raisoni has taken a different path twice. With $565M+ in exits under his belt, he’s proven that bootstrapping isn’t about being scrappy—it’s about being sharply focused. In this breakout session, Tarun will share hard-earned lessons on how to build a profitable business that scales. He’ll dive into how to identify problems worth solving, generate revenue before raising capital, and create lasting traction without relying on brand cachet or a big burn. Whether you’re pre-seed or post-product, this session delivers a no-fluff playbook for building a capital-efficient company that lasts and why doing more with less is still the ultimate founder advantage.
+
+10:50AM – 11:20AM
+
+Roundtable 1 Startup
+
+### From Data to Disruption: Redesigning Startup & VC Ecosystems
+
+![Brit Fitzpatrick](https://techcrunch.com/wp-content/uploads/2025/08/BritFitzpatrickHeadshot-1.png?w=150)
+
+[Brit Fitzpatrick](https://techcrunch.com/author/brit-fitzpatrick/)
+
+Data & Impact All Raise
+
+Data isn’t just for dashboards — it’s a design tool for equity. In this roundtable, award-winning strategist Brit Fitzpatrick (All Raise, #ProjectDiane) leads a dynamic discussion on using data as both mirror and map to drive ecosystem change. From tracking which founders get funded to surfacing who’s missing entirely, we’ll explore how data can reveal blind spots, reshape narratives, and unlock capital for underrepresented entrepreneurs and investors. Brit will share real-world examples from her work at All Raise and ProjectDiane — including how simple tools like dashboards and overlooked datasets have fueled strategic decisions and shifted power. We’ll discuss how to translate data into funding, policy, and platform change — no technical background required. Attendees will leave with insights on spotting key signals, designing inclusive strategies, and using narrative-backed data to build what the future of tech actually needs.
+
+10:50AM – 11:20AM
+
+Roundtable 2
+
+### How to Train Your Model: Taming AI Agents Without Breaking Them
+
+![Kyla Guru](https://techcrunch.com/wp-content/uploads/2025/07/IMG_4090-e1752187331820.jpg?w=150)
+
+[Kyla Guru](https://techcrunch.com/author/kyla-guru/)
+
+Head of Model Cyber Safety Anthropic
+
+Every AI model faces a fundamental tension: make it too harmless and it becomes less helpful, too helpful and it becomes dangerous. This interactive discussion explores real-world decisions in AI training – from constitutional AI to red-teaming strategies and enforcement approaches. We’ll examine case studies of blending safety and functionality, debate steering techniques that preserve model personality, and crowdsource solutions for common training dilemmas. Attendees will leave with frameworks for balancing safety constraints with performance goals, practical approaches to model character development, and strategies for building AI that’s both helpful and harmless.
+
+10:50AM – 11:20AM
+
+Roundtable 3 AI
+
+### AI in the Public Sector
+
+![Ross Fubini](https://techcrunch.com/wp-content/uploads/2015/06/Ross_XYZ_Headshots1-2025-1.jpg?w=150)
+
+[Ross Fubini](https://techcrunch.com/author/ross-fubini/)
+
+Founder & Managing Partner XYZ Venture Capital
+
+![Ben Van Roo](https://techcrunch.com/wp-content/uploads/2025/09/ben-headshot-new.jpg?w=150)
+
+[Ben Van Roo](https://techcrunch.com/author/ben-van-roo/)
+
+Co-Founder and CEO Legion Intelligence
+
+In this roundtable, Ross Fubini of XYZ Venture Capital and Ben Van Roo of Legion Intelligence—the agentic AI platform tackling the Department of Defense’s AI infrastructure challenge—will dig into the evolving role of AI in the public sector. Together, they’ll unpack where investment dollars are flowing in defense and government tech, the real-world hurdles of deploying AI in highly regulated environments, and how agentic AI is reshaping what’s possible for mission-critical operations. Attendees of this session will walk away with a better understanding of the investment landscape in public sector AI, practical insights into deploying AI in highly-regulated, complex government environments, and actionable advice for entrepreneurs looking to navigate the public sector market—from federal agencies to state and local governments.
+
+11:00AM – 11:20AM
+
+Industry Stage- Space Space Presented by [![](https://techcrunch.com/wp-content/uploads/2024/05/AeroLogo_Wide_Indigo.png?w=90)]( http://www.aerospace.org) 
+
+### AI at the Edge: Startups Powering the Future of Space
+
+Space isn’t just about rockets and satellites anymore – it’s about data and decisions – and doing both fast. From autonomous systems to resilient compute and onboard intelligence, AI is becoming the backbone of how missions get managed at scale. The Aerospace Corporation and innovators break down how early-stage innovation is driving these shifts and laying the foundation for the evolving space economy.
+
+11:15AM – 11:45AM
+
+Disrupt Stage
+
+### The Self-Driving Reality Check
+
+![Tekedra Mawakana](https://techcrunch.com/wp-content/uploads/2024/05/B7BE1E60-4FE5-44F0-B147-104146598172-1.jpeg?w=150)
+
+[Tekedra Mawakana](https://techcrunch.com/author/tekedra-mawakana/)
 
 Co-CEO Waymo
 
-View Profile
+Autonomous vehicles have been “just around the corner” for years—until now. Tekedra Mawakana, Co-CEO of Waymo, takes the Disrupt Stage to talk about where AVs actually stand, what it’s taken to get to real deployments, and why the race isn’t just about tech, it’s about trust. From regulation to rider experience to competition with Tesla and Tesla-adjacent hype, this conversation gets real about what’s next in mobility.
 
-![Ryan Petersen](https://techcrunch.com/wp-content/uploads/2015/06/Flexport_004266-e1742928770285.jpg?w=300)
+11:20AM – 11:50AM
 
-Ryan Petersen
+Industry Stage- Space Space
+
+### Laying the Groundwork for a New Space Economy
+
+![Max Haot](https://techcrunch.com/wp-content/uploads/2025/07/Max_Haot_Headshot-1_Square-e1754437811279.jpeg?w=150)
+
+[Max Haot](https://techcrunch.com/author/max-haot/)
+
+CEO Vast
+
+![Even Rogers](https://techcrunch.com/wp-content/uploads/2024/05/1705454024062.jpg?w=150)
+
+[Even Rogers](https://techcrunch.com/author/even-rogers/)
+
+CEO and Co-Founder True Anomaly
+
+The next wave of space startups is not just building rockets, it’s building an entire ecosystem. The CEOs of True Anomaly and Vast Space take the stage to discuss how their companies are creating infrastructure, enabling new markets, and laying the foundations for a thriving space economy. From orbital services to next-generation satellite networks, this session explores the building blocks of a future where commercial space is a critical part of global tech.
+
+11:30AM – 12:20PM
+
+Breakout Stage Startup
+
+### How to Get Acquired in Tech (Without Selling Out): M&A Tips for Founders and Builders
+
+![Aklil Ibssa](https://techcrunch.com/wp-content/uploads/2025/07/1740378936164.jpeg?w=150)
+
+[Aklil Ibssa](https://techcrunch.com/author/aklil-ibssa/)
+
+Head of Corporate Development and M&A Coinbase
+
+Coinbase just pulled off the biggest acquisition in crypto history — and its 6th acquisition in 6 months. So what separates the builders getting acquired from the ones getting ghosted? This no-BS session breaks down how to make your project irresistible: from product-market fit to community traction. Learn how to position your project for a strategic acquisition, partnership, or investment — without compromising decentralization. If you’re building onchain or in tech and wondering whether M&A is a path to scale, this is your playbook. And if you’re an investor, you’ll get a cheat sheet for spotting teams building toward high-value outcomes.
+
+11:45AM – 12:15PM
+
+Disrupt Stage AI
+
+### Lovable and the Future of Consumer Tech
+
+![Anton Osika](https://techcrunch.com/wp-content/uploads/2025/09/lovable_anton_2-e1757572318693.jpg?w=150)
+
+[Anton Osika](https://techcrunch.com/author/anton-osika/)
+
+CEO and Co-Founder Lovable
+
+Lovable has quickly become one of the most talked-about startups of the year by tackling a category long ignored in consumer tech. CEO Anton Osika joins us on the Disrupt Stage to discuss what it takes to build a breakout brand in a competitive market, how to navigate the cultural conversations that come with it, and where the company goes next.
+
+12:30PM – 1:20PM
+
+Breakout Stage Fundraising
+
+### Fundraising Mistakes That Will Kill Your Round, and How to Avoid Them.
+
+![Sam Li](https://techcrunch.com/wp-content/uploads/2025/09/headshot2.jpeg?w=150)
+
+[Sam Li](https://techcrunch.com/author/sam-li/)
+
+Co-Founder & CEO Thoropass
+
+![Dr. Richard Munassi](https://techcrunch.com/wp-content/uploads/2025/06/Screenshot-2025-06-20-at-10.21.06AM.png?w=150)
+
+[Dr. Richard Munassi](https://techcrunch.com/author/dr-richard-munassi-md-mba/)
+
+Managing Director Tampa Bay Wave
+
+From pre-pitch prep to post-meeting follow-through, this session will give founders a real-world look at what works — and what doesn’t — in today’s competitive fundraising landscape.
+
+1:00PM – 1:40PM
+
+Builders Stage
+
+### Building a GTM Engine that Actually Works
+
+![Max Altschuler](https://techcrunch.com/wp-content/uploads/2025/08/MaxA.png?w=150)
+
+[Max Altschuler](https://techcrunch.com/author/max-altschuler/)
+
+General Partner & Founder GTMfund
+
+![Marc Manara](https://techcrunch.com/wp-content/uploads/2025/08/Manara.jpeg?w=150)
+
+[Marc Manara](https://techcrunch.com/author/marc-manara/)
+
+Head of Startups OpenAI
+
+![Alison Wagonfeld](https://techcrunch.com/wp-content/uploads/2014/12/AlisonWagonfeld610v2.jpg?w=150)
+
+[Alison Wagonfeld](https://techcrunch.com/author/alison-wagonfeld/)
+
+VP Marketing & Chief Marketing Officer Google Cloud
+
+  
+A killer product needs a killer go-to-market strategy. This panel explores best traditional practices in building a GTM function, as well as how early-stage startups can harness AI to build a GTM function that drives growth, wins customers, and scales efficiently. Hear from founders and GTM experts on hiring, messaging, sales tactics, and the key metrics that prove your approach is working.
+
+1:00PM – 1:30PM
+
+Roundtable 1 AI
+
+### Real Economy Automation: Vertical Software and Vertical AI
+
+![Caroline Broder](https://techcrunch.com/wp-content/uploads/2025/07/Base10-Pictures-2.png?w=150)
+
+[Caroline Broder](https://techcrunch.com/author/caroline-broder/)
+
+Partner Base10 Partners
+
+The next frontier of automation is here—and it’s not generic. It’s vertical software and vertical AI: purpose-built technologies transforming real industries like logistics, construction, and healthcare. In this session, we’ll explore how automation is shifting from horizontal platforms to deeply integrated, vertical solutions that directly impact the real economy—the businesses that move people, build infrastructure, and keep society running. Attendees will leave with an understanding of why this shift matters, where the biggest opportunities lie, and how founders, operators, and investors can help shape an automated future that drives both profit and progress.
+
+1:20PM – 1:50PM
+
+Industry Stage- Going Public
+
+### How Long Should a Startup Stay Private?
+
+![David George](https://techcrunch.com/wp-content/uploads/2025/04/DG-Headshot.jpg?w=150)
+
+[David George](https://techcrunch.com/author/david-george/)
+
+General Partner Andreessen Horowitz
+
+Startups today can grow to huge valuations, cash out their employees, and stay private longer than those of previous eras. But that also means that late-stage startups are facing a whole new set of rules. a16z’s David George unpacks the shifting VC landscape, what the next generation of scaled startups needs to know, and how capital is being deployed in an era of tighter money and higher expectations. From IPO windows to secondary markets to the evolving role of growth investors, this fireside chat goes deep on what it really takes to build enduring companies in today’s market and what’s coming next.
+
+1:30PM – 2:45PM
+
+Disrupt Stage Startup Battlefield
+
+### The Startup Battlefield – Session 2
+
+![Eryk Dobrushkin](https://techcrunch.com/wp-content/uploads/2025/09/20250212-DSC06670-e1757572866687.jpg?w=150)
+
+[Eryk Dobrushkin](https://techcrunch.com/author/eryk-dobrushkin/)
+
+Partner Index Ventures
+
+![Jen Hoskins](https://techcrunch.com/wp-content/uploads/2025/08/Hoskins-Photo-24.jpg?w=150)
+
+[Jen Hoskins](https://techcrunch.com/author/jen-hoskins/)
+
+Startups Head of Cloud & Partnerships NVIDIA
+
+![Thomas Krane](https://techcrunch.com/wp-content/uploads/2025/08/Thomas-Krane_2019-1-e1754502905655.jpg?w=150)
+
+[Thomas Krane](https://techcrunch.com/author/thomas-krane/)
+
+Managing Director Insight Partners
+
+![Jon McNeill](https://techcrunch.com/wp-content/uploads/2023/12/Headshot3-1-e1758045652373.png?w=150)
+
+[Jon McNeill](https://techcrunch.com/author/jon-mcneill/)
+
+CEO and Co-Founder DVx Ventures
+
+![Katie Stanton](https://techcrunch.com/wp-content/uploads/2021/01/vy6rawcusgpmnngfd8xq.jpg?w=150)
+
+[Katie Stanton](https://techcrunch.com/author/katie-stanton/)
+
+Founder and General Partner Moxxie Ventures
+
+TechCrunch’s iconic startup competition is back, as entrepreneurs from around the world pitch expert judges and vie for the prestigious Startup Battlefield Cup and equity-free $100,000.
+
+1:30PM – 2:20PM
+
+Breakout Stage Fundraising
+
+### Fundraising Process Workshop with TC editor turned VC Josh Constine
+
+![Josh Constine](https://techcrunch.com/wp-content/uploads/2024/05/Josh-Constine-Headshot-Dark-Gray-Square.jpeg?w=150)
+
+[Josh Constine](https://techcrunch.com/author/josh-constine/)
+
+Venture Partner SignalFire
+
+The deck was the easy part. How do you get hundreds of investor meetings, answer their questions successfully, follow up without sounding desperate, and get competing term sheets on the table? Josh Constine has advised dozens of companies on their raises as a Venture Partner at $3B AI-powered VC firm SignalFire, and knows how to make your pitch compelling from his 9 years at TechCrunch where he was ranked the world’s #1 most cited tech journalist. Josh will share what he teaches at top accelerators and the Stanford Graduate School Of Business so you can get the capital you deserve. You’ll leave knowing how to build a fundraise CRM, get the best intros, present effectively, and generate investor FOMO so your round closes fast!
+
+1:40PM – 2:10PM
+
+Builders Stage Presented by [![](https://techcrunch.com/wp-content/uploads/2025/07/Greenfield-Partners-for-Scale-Logo-Blue.png?w=90)]( https://www.greenfield-growth.com/) 
+
+### Who’s Defining AI’s Future in 2025? The AI Disruptors 60 Unveiled
+
+![Shay Grinfeld](https://techcrunch.com/wp-content/uploads/2025/08/Shay-Grinfeld-Greenfield-Partners.png?w=150)
+
+[Shay Grinfeld](https://techcrunch.com/author/shay-grinfeld/)
+
+Co-Founder and Managing Partner Greenfield Partners
+
+![Renen Hallak](https://techcrunch.com/wp-content/uploads/2025/08/renen-hallak-vast-data.webp?w=150)
+
+[Renen Hallak](https://techcrunch.com/author/renen-hallak/)
+
+Founder & CEO Vast Data
+
+We’ve seen revolutions with the internet and mobile, now AI is taking center stage, and it’s moving faster than ever. Greenfield Partners is curating the AI Disruptors 60, a list of early and growth-stage companies leading this AI revolution. In this panel, top investors like Shay Grinfeld of Greenfield Partners, and founders like Renen Hallak of VAST Data will break down how these startups are succeeding, from building the AI infrastructure of tomorrow, to solving real-world problems in critical sectors, as well as the GTM plays that scale revenue. They’ll discuss why they’ve chosen these strategies in a rapidly evolving market and what makes them stand out. Finally, they’ll share what’s coming next, offering a glimpse of the innovations and challenges shaping the future of AI.
+
+1:50PM – 2:20PM
+
+Roundtable 2
+
+### Future of Space Economy in the Low Earth Orbit
+
+![Abhi Kumar](https://techcrunch.com/wp-content/uploads/2025/06/profile.png?w=150)
+
+[Abhi Kumar](https://techcrunch.com/author/abhi-kumar/)
+
+Lecturer, Investor, and Advisor UC Berkeley
+
+Low Earth Orbit (LEO) is no longer just for satellites; it’s the new frontier for manufacturing, energy, and data infrastructure. This session explores the emerging LEO economy, regulatory shifts, and key investment trends. Attendees will gain actionable insight into partnering with space startups, leveraging orbital platforms for Earth-based industries, and preparing for the commercialization of near-Earth space.
+
+2:10PM – 2:40PM
+
+Builders Stage
+
+### Building in a Time of Uncertainty
+
+![Ryan Petersen](https://techcrunch.com/wp-content/uploads/2015/06/Flexport_004266-e1742928770285.jpg?w=150)
+
+[Ryan Petersen](https://techcrunch.com/author/ryan-petersen/)
 
 Founder & CEO Flexport
 
-View Profile
+Uncertainty is the new normal—but it’s also an opportunity. In this fireside chat, Ryan Petersen, CEO of global logistics unicorn Flexport, shares his hard-won insights. With $2.3B raised, Flexport’s shipping technology sits at the intersection of international business and policy, giving Petersen almost prescient economic insights. He’s been vocal about everything from tariff policy to AI. He’s also experienced personal volatility, famously leaving his CEO role and then returning less than a year later. Founders, take notes: this is how you build when the rules keep changing.
 
-![Brynn Putnam](https://techcrunch.com/wp-content/uploads/2024/10/Brynn-Putnam_Headshot.png?w=300)
+2:10PM – 2:40PM
 
-Brynn Putnam
+Industry Stage- Going Public
 
-Founder, MIRROR, and CEO Board
+### What Comes After Breakout Success?
 
-View Profile
+![Santi Subotovsky](https://techcrunch.com/wp-content/uploads/2025/08/Headshot-2014-1-Hi-Res-e1757022032146.jpg?w=150)
 
-![Astro Teller](https://techcrunch.com/wp-content/uploads/2025/04/X-Leadership-Portraits-2023-Peter-Prato-Astro-Teller-20230424-0025-Retouched-e1745522055465.jpg?w=300)
+[Santi Subotovsky](https://techcrunch.com/author/santi-subotovsky/)
 
-Astro Teller
+General Partner Emergence Capital
+
+![Eric Yuan](https://techcrunch.com/wp-content/uploads/2025/08/Eric-headshot-e1754676514767.jpg?w=150)
+
+[Eric Yuan](https://techcrunch.com/author/eric-yuan/)
+
+Founder & CEO Zoom Communications Inc.
+
+You’ve built the hit product—now what? Zoom CEO Eric Yuan and Emergence GP Santi Subotovsky take the stage to dig into what comes after the breakout moment. From expanding into new markets to launching the next product bets, this panel will explore how great companies avoid becoming one-hit wonders. We’ll get into the tough calls on focus vs. diversification, how to keep innovating at scale, and what investors want to see in a second act. If you’re staring down the post-product/market fit phase, this convo is your roadmap.
+
+2:30PM – 3:20PM
+
+Breakout Stage AI + Policy
+
+### AI at the Brink: Strategic Playbook for National Security
+
+![Daniel Hendrycks](https://techcrunch.com/wp-content/uploads/2025/07/me_2024.webp?w=150)
+
+[Daniel Hendrycks](https://techcrunch.com/author/daniel-hendrycks/)
+
+Executive Director Center for AI Safety
+
+Advanced AI poses dual-use risks with potentially catastrophic consequences, from bioweapons to cyberattacks. As global competition accelerates progress, managing technological risks is a national and international security priority. This session explores strategic frameworks for the AI age, including Mutually Assured AI Malfunction, technical evaluations, non-proliferation, and supply chain security. Dan Hendrycks (CAIS) will be joined by key voices, potentially including Superintelligence Strategy co-authors Eric Schmidt and Alexander Wang.
+
+2:40PM – 3:10PM
+
+Industry Stage- Going Public
+
+### How AI is Forcing Late-stage Startups to Rewire GTM – or Be Left Behind
+
+![Jane Alexander](https://techcrunch.com/wp-content/uploads/2024/08/Jane-Alexander-CapitalG.jpg?w=150)
+
+[Jane Alexander](https://techcrunch.com/author/jane-alexander/)
+
+Partner CapitalG
+
+![Vanessa Larco](https://techcrunch.com/wp-content/uploads/2024/06/240909_VanessaLarco1217-1-1-e1755187590667.jpg?w=150)
+
+[Vanessa Larco](https://techcrunch.com/author/vanessa-larco/)
+
+Co-Founder Premise
+
+![Nirav Tolia](https://techcrunch.com/wp-content/uploads/2025/05/Nirav-headshot.jpg?w=150)
+
+[Nirav Tolia](https://techcrunch.com/author/nirav-tolia/)
+
+Co-Founder & CEO Nextdoor
+
+AI is rewriting the playbook for how startups reach and win customers — and late-stage companies are feeling the pressure to adapt fast. In this panel, two top VCs and a seasoned founder break down how AI is transforming go-to-market strategies, from sales and marketing to customer success. We’ll get into what’s working, what’s hype, and how to build AI into your GTM engine without losing focus. If you’re scaling and wondering how AI fits into your next phase of growth, this is the conversation you don’t want to miss.
+
+2:40PM – 3:20PM
+
+Builders Stage
+
+### What VCs Really Want to Hear in Your Pitch
+
+![Medha Agarwal](https://techcrunch.com/wp-content/uploads/2020/05/231030Medha004-copy-e1727722593679.jpg?w=150)
+
+[Medha Agarwal](https://techcrunch.com/author/medha-agarwal/)
+
+General Partner defy.vc
+
+![Jyoti Bansal](https://techcrunch.com/wp-content/uploads/2015/03/8V9A0591.jpg?w=150)
+
+[Jyoti Bansal](https://techcrunch.com/author/jyoti-bansal/)
+
+CEO & Co-Founder Harness
+
+![Jennifer Neundorfer](https://techcrunch.com/wp-content/uploads/2025/05/Screenshot-2025-05-29-at-11.49.47AM.png?w=150)
+
+[Jennifer Neundorfer](https://techcrunch.com/author/jennifer-neundorfer/)
+
+Co-Founder, Managing Partner January Ventures
+
+Investors hear hundreds of pitches but only a few stand out. Hear directly from VCs on what they love, what makes them cringe, and the subtle signals founders often miss. This panel reveals insider tips to help you craft a pitch that grabs attention, builds trust, and wins the right checks.
+
+2:40PM – 3:10PM
+
+Roundtable 1
+
+### Leading a Series A Round in 2025 and Sustaining Momentum
+
+![Gabriel Kra](https://techcrunch.com/wp-content/uploads/2025/07/Gabriel-Kra_index.jpg?w=150)
+
+[Gabriel Kra](https://techcrunch.com/author/gabriel-kra/)
+
+Managing Director Prelude Ventures
+
+2025 kicked off with a record-breaking first quarter for early-stage ventures, with the median deal size reaching $2.7M. At the same time, last year marked a 46% annual decline in the number of new venture funds raised in the U.S. VC dollars haven’t dried up, but the competition to secure capital has intensified. Drawing from his firsthand experience leading Series A rounds, Prelude Ventures’ Gabriel Kra will speak to what it takes for startups to successfully raise first funding, offering attendees practical takeaways for navigating today’s increasingly competitive landscape.
+
+2:45PM – 3:15PM
+
+Disrupt Stage
+
+### What Sequoia Sees Coming Next
+
+![Roelof Botha](https://techcrunch.com/wp-content/uploads/2015/09/Roelof-Botha-e1750782761586.webp?w=150)
+
+[Roelof Botha](https://techcrunch.com/author/roelof-botha/)
+
+Partner Sequoia Capital
+
+As one of the most influential VCs of the modern era, Roelof Botha has seen it all; booms, busts, and billion-dollar breakout bets. In this fireside chat, the Sequoia Capital managing partner opens up about how today’s most ambitious founders are navigating AI, geopolitics, and a shifting capital landscape.
+
+3:15PM – 3:45PM
+
+Disrupt Stage
+
+### Moonshots, AI, and the Future of Alphabet
+
+![Astro Teller](https://techcrunch.com/wp-content/uploads/2025/04/X-Leadership-Portraits-2023-Peter-Prato-Astro-Teller-20230424-0025-Retouched-e1745522055465.jpg?w=150)
+
+[Astro Teller](https://techcrunch.com/author/astro-teller/)
 
 Captain of Moonshots X, The Moonshot Factory
 
-View Profile
+From self-driving cars to internet balloons to AI-fueled breakthroughs, Astro Teller leads the lab where Alphabet incubates the nearly impossible. In this rare Disrupt stage appearance, he shares what’s actually working inside X, why “failing fast” isn’t just a mantra, and how moonshots may evolve in the AI age. If you think your startup is ambitious, wait until you hear what he’s launching next.
 
-![Thomas Wolf](https://techcrunch.com/wp-content/uploads/2025/09/20241009-Thomas_Web-summit_2-e1758045324866.png?w=300)
+3:30PM – 3:55PM
 
-Thomas Wolf
+Industry Stage- Going Public
+
+### Building a Company That Lasts
+
+![Chris Britt](https://techcrunch.com/wp-content/uploads/2025/09/CB-Option-3.jpg?w=150)
+
+[Chris Britt](https://techcrunch.com/author/chris-britt/)
+
+CEO and Co-Founder Chime
+
+Chris Britt knows how to build a company that withstands headwinds and seizes rare opportunities. As co-founder and CEO of Chime, he’s led the fintech from scrappy challenger to one of the few to go public in today’s tough market. In this conversation, Britt will share what it takes to scale with discipline, stay resilient through market shifts, and make the leap from private to public when so few manage it.
+
+3:30PM – 4:20PM
+
+Breakout Stage Startup
+
+### Startup Lessons You Won’t Find in a Playbook
+
+![Santi Subotovsky](https://techcrunch.com/wp-content/uploads/2025/08/Headshot-2014-1-Hi-Res-e1757022032146.jpg?w=150)
+
+[Santi Subotovsky](https://techcrunch.com/author/santi-subotovsky/)
+
+General Partner Emergence Capital
+
+The founder’s path is paved with challenges. With AI-fueled transformation accelerating the pace of innovation, the stakes for success are sky-high. Santi Subotovsky, founder-turned-investor at Emergence Capital, and Melissa Wong, Zipline CEO, know firsthand the rough terrain and milestones founders face. In this session, Santi and Melissa will share vital lessons learned in their partnership and explore tactics attendees can leverage to navigate the ups and downs of entrepreneurship: from hiring a winning team and creating a vibrant company culture to honing leadership skills essential for lasting success.
+
+3:30PM – 4:00PM
+
+Roundtable 2
+
+### Future of Space Economy in the Low Earth Orbit \[encore\]
+
+![Abhi Kumar](https://techcrunch.com/wp-content/uploads/2025/06/profile.png?w=150)
+
+[Abhi Kumar](https://techcrunch.com/author/abhi-kumar/)
+
+Lecturer, Investor, and Advisor UC Berkeley
+
+Low Earth Orbit (LEO) is no longer just for satellites; it’s the new frontier for manufacturing, energy, and data infrastructure. This session explores the emerging LEO economy, regulatory shifts, and key investment trends. Attendees will gain actionable insight into partnering with space startups, leveraging orbital platforms for Earth-based industries, and preparing for the commercialization of near-Earth space.
+
+3:55PM – 4:25PM
+
+Industry Stage- Going Public
+
+### Everything You Need to Know Before an Exit
+
+![Jai Das](https://techcrunch.com/wp-content/uploads/2016/05/Jai_Das_2024.jpg?w=150)
+
+[Jai Das](https://techcrunch.com/author/jai-das/)
+
+Co-Founder, President, and Partner Sapphire Ventures
+
+![Roseanne Wincek](https://techcrunch.com/wp-content/uploads/2025/06/Roseanne-Headshot-2-2-e1750274961880.jpg?w=150)
+
+[Roseanne Wincek](https://techcrunch.com/author/roseanne-wincek/)
+
+Co-Founder & Managing Director Renegade Partners
+
+Go public, get acquired, or double down and stay private? In today’s unpredictable market, founders need to think about exit strategy earlier — and more strategically — than ever. This panel brings together two top VCs and a seasoned CEO to unpack how to set your company up for every option. We’ll talk timing, metrics that matter, investor expectations, and what it really takes to navigate M&A, IPO prep, or just keep building through the storm. Whether you’re 12 months out or just starting to scale, this conversation is all about making smart moves now for whatever comes next.
+
+No sessions on this day. Reset filters or choose another day.
+
+## October 28th
+
+8:00AM – 10:00AM
+
+Deal Flow Cafe Inclusion Presented by [![](https://techcrunch.com/wp-content/uploads/2024/09/tr_hrz_logo_rgb_color-1.png?w=90)]( https://www.thomsonreuters.com/en.html) 
+
+### Women of Disrupt Breakfast
+
+Join Thomson Reuters and TechCrunch for a morning program dedicated to all female attendees and those who identify as female. This event has limited capacity and will be on a first come, first serve basis.
+
+9:30AM – 10:00AM
+
+Industry Stage- AI AI
+
+### Betting on the Next Wave: What VCs Want in AI Startups
+
+![Steve Jang](https://techcrunch.com/wp-content/uploads/2025/08/SJ-Headshot-2023-1.jpg?w=150)
+
+[Steve Jang](https://techcrunch.com/author/steve-jang/)
+
+Founder & Managing Partner Kindred Ventures
+
+![Aileen Lee](https://techcrunch.com/wp-content/uploads/2015/07/Aileen-Lee-Headshot-1-e1726762536965.jpg?w=150)
+
+[Aileen Lee](https://techcrunch.com/author/aileen-lee/)
+
+Founder & Managing Partner Cowboy Ventures
+
+![Jon McNeill](https://techcrunch.com/wp-content/uploads/2023/12/Headshot3-1-e1758045652373.png?w=150)
+
+[Jon McNeill](https://techcrunch.com/author/jon-mcneill/)
+
+CEO and Co-Founder DVx Ventures
+
+From model infrastructure to niche applications, AI is producing a new breed of founders, and a new set of investor expectations. In this candid conversation, top VCs share what’s catching their eye (and what’s not), how they’re thinking about defensibility in a world of AI monopolies, and what founders need to show to get that next term sheet.
+
+9:30AM – 10:10AM
+
+Builders Stage
+
+### How to Nail Product Market Fit
+
+![Rajat Bhageria](https://techcrunch.com/wp-content/uploads/2020/06/Rajat-Headshot-.jpg?w=150)
+
+[Rajat Bhageria](https://techcrunch.com/author/rajat-bhageria/)
+
+Founder and CEO Chef Robotics
+
+![Ann Bordetsky](https://techcrunch.com/wp-content/uploads/2025/04/230810_NEA_MenloPark_AnnBordetsky_0539-e1754502500769.jpg?w=150)
+
+[Ann Bordetsky](https://techcrunch.com/author/ann-bordetsky/)
+
+Partner NEA
+
+![Murali Joshi](https://techcrunch.com/wp-content/uploads/2025/06/Murali-Joshi-2025-1.jpeg?w=150)
+
+[Murali Joshi](https://techcrunch.com/author/murali-joshi/)
+
+Partner ICONIQ
+
+Building a product is hard. Building one that has customers chomping at the bit to get it, is priced well and can deliver on its promises is far harder, and always messy. But once you achieve the holy grail of product market/fit, your startup will rocket to growth, funding and success. Hear from a founder who’s lived it and two investors who have helped many others achieve it. This panel breaks down how to test smarter, iterate with intention so you can stop guessing and start growing.
+
+9:30AM – 10:20AM
+
+Breakout Stage AI + Agents
+
+### Agentic AI for Startups: Automate, Adapt, and Accelerate Growth
+
+![Anmol Rastogi](https://techcrunch.com/wp-content/uploads/2025/07/LinkedIn2.jpg?w=150)
+
+[Anmol Rastogi](https://techcrunch.com/author/anmol-rastogi/)
+
+Head of Product Management, AI & ML – Amazon Business Amazon
+
+Agentic AI is revolutionizing how startups scale by enabling automation, personalized user experiences, and data-driven agility. In this session, we’ll break down how startups can identify high-impact AI opportunities, build practical agentic AI workflows, and measure outcomes. Using real startup case studies, attendees will gain a hands-on blueprint for integrating agentic AI to streamline operations, enhance customer engagement, and accelerate growth — empowering founders and teams to outpace competition with AI-driven strategies.
+
+10:00AM – 11:20AM
+
+Disrupt Stage Startup Battlefield
+
+### The Startup Battlefield – Session 3
+
+![Jon Chu](https://techcrunch.com/wp-content/uploads/2025/09/6764c91d888e2cbf830f2c97_675b8fc3cea5598fbb938ad9_Jon-Chu_ETB5799-scaled-1-e1758044946578.webp?w=150)
+
+[Jon Chu](https://techcrunch.com/author/jon-chu/)
+
+Partner Khosla Ventures
+
+![Madison Faulkner](https://techcrunch.com/wp-content/uploads/2025/07/250211_NEA_MADISONFAULKNER_7467-e1753716760707.jpg?w=150)
+
+[Madison Faulkner](https://techcrunch.com/author/madison-faulkner/)
+
+Partner NEA
+
+![Ilya Kirnos](https://techcrunch.com/wp-content/uploads/2025/07/download.jpg?w=150)
+
+[Ilya Kirnos](https://techcrunch.com/author/ilya-kirnos/)
+
+Founding Partner & CTO SignalFire
+
+TechCrunch’s iconic startup competition is back, as entrepreneurs from around the world pitch expert judges and vie for the prestigious Startup Battlefield Cup and equity-free $100,000.
+
+10:00AM – 10:30AM
+
+Industry Stage- AI AI + Creativity
+
+### Creative Machines and Where AI Meets Imagination
+
+![Soyoung Lee](https://techcrunch.com/wp-content/uploads/2025/09/Soyoung_Headshot_2025-e1757573004781.jpg?w=150)
+
+[Soyoung Lee](https://techcrunch.com/author/soyoung-lee/)
+
+Co-Founder & Head of GTM TwelveLabs
+
+![Nikola Todorovic](https://techcrunch.com/wp-content/uploads/2025/05/Nikola-Todorovic-Headshot-e1747151592384.jpg?w=150)
+
+[Nikola Todorovic](https://techcrunch.com/author/nikola-todorovic/)
+
+Co-Founder Wonder Dynamics, an Autodesk company
+
+AI is no longer just optimizing workflows; it’s co-creating art, media, and experiences in ways we’re only beginning to understand. Wonder Dynamics CEO Nikola Todorovic and Twelve Labs Co-founder Soyoung Lee are creative technologists who explore how AI is reshaping the creative process, blurring the lines between artist and algorithm, and opening up new frontiers for storytellers, designers, and dreamers alike.
+
+10:00AM – 10:30AM
+
+Roundtable 1
+
+### The Future of Banking and Fintech: the AI Wave
+
+![Nnamdi Okike](https://techcrunch.com/wp-content/uploads/2015/04/Nnamdi-Updated-Headshot.jpg?w=150)
+
+[Nnamdi Okike](https://techcrunch.com/author/nnamdi-okike/)
+
+Co-Founder and Managing Partner 645 Ventures
+
+AI is transforming financial services, creating huge opportunities for new fintech startups as well as providers of software for banking. This session will focus on the AI wave and its impact on financial services, describing where startups are innovating and where VC’s are investing. We’ll discuss how startups can differentiate themselves in this new world, in particular in terms of data and technology moats as well as end-user experiences. We’ll also discuss key learnings from the mobile and cloud waves in terms of the successful companies those waves produced, and what new AI startups should learn from them.
+
+10:00AM – 10:30AM
+
+Roundtable 2
+
+### Scaling Search and AI for Millions: Lessons from Reddit Search
+
+![Rachel Miller](https://techcrunch.com/wp-content/uploads/2025/06/IMG_5496_VSCO.jpg?w=150)
+
+[Rachel Miller](https://techcrunch.com/author/rachel-miller/)
+
+Product Manager Reddit
+
+Let’s talk about what it really takes to build AI at scale in a way that users trust. This conversation dives into Reddit’s approach to scaling Search and ML systems for millions globally—balancing relevance, safety, and bias mitigation. We’ll explore tough questions around community expectations, ethical tradeoffs, and real-world implementation. Bring your startup’s challenges and join a candid, collaborative discussion.
+
+10:30AM – 11:10AM
+
+Builders Stage
+
+### How to Pitch When You're at the Inception Stage
+
+![Wesley Chan](https://techcrunch.com/wp-content/uploads/2024/10/WesleyPegah_WEB-2.jpg?w=150)
+
+[Wesley Chan](https://techcrunch.com/author/wesley-chan/)
+
+Co-Founder and Managing Partner FPV Ventures
+
+![Charles Hudson](https://techcrunch.com/wp-content/uploads/2022/05/Charles-Hudson.jpg?w=150)
+
+[Charles Hudson](https://techcrunch.com/author/charles-hudson/)
+
+Managing Partner Precursor Ventures
+
+Raising pre-seed and seed-stage capital at the inception stage means pitching without a product, users, or traction—just a vision and a founder story. In this panel, Wesley Chan of FPV Ventures and Charles Hudson of Precursor Ventures share what they look for in the earliest-stage founders and how to stand out when you have little more than an idea. Learn how to build trust, tell a compelling story, and avoid the most common mistakes founders make when trying to land that critical first check.
+
+10:30AM – 10:55AM
+
+Industry Stage- AI AI
+
+### AI Meets the Future of Work with Mercor’s Brendan Foody
+
+![Brendan Foody](https://techcrunch.com/wp-content/uploads/2025/09/UOS2472-copy-1.jpg?w=150)
+
+[Brendan Foody](https://techcrunch.com/author/brendan-foody/)
+
+CEO Mercor
+
+AI isn’t just changing how we work—it’s redefining who gets to work, how teams are built, and what talent looks like in a global, automated economy. Brendan Foody, co-founder and CEO of Mercor, joins the AI Stage to discuss how his company is using artificial intelligence to connect talent with opportunity in new ways, the implications for hiring and upskilling in an AI-first world, and what the next generation of work platforms will look like.
+
+11:15AM – 11:40AM
+
+Industry Stage- AI AI + Agents
+
+### Why the Next Frontier Is Search
+
+![Edo Liberty](https://techcrunch.com/wp-content/uploads/2025/06/edo-liberty-headshot-1.jpg?w=150)
+
+[Edo Liberty](https://techcrunch.com/author/edo-liberty/)
+
+Founder and Chief Scientist Pinecone
+
+In a world overflowing with data, finding what matters is everything. Pinecone founder Edo Liberty unpacks why infrastructure, not algorithms, might be the biggest unlock in AI, and what’s coming next in the race to power smarter applications at scale.
+
+11:20AM – 11:50PM
+
+Disrupt Stage
+
+### What's Next for Netflix and for Streaming Itself
+
+![Eunice Kim](https://techcrunch.com/wp-content/uploads/2025/06/Eunice-Kim-e1750867240234.jpg?w=150)
+
+[Eunice Kim](https://techcrunch.com/author/eunice-kim/)
+
+Chief Product Officer Netflix
+
+As CPO of Netflix, Eunice Kim is steering the future of entertainment for hundreds of millions of users. In this fireside chat, Kim will break down how Netflix is evolving its product strategy—from personalized discovery to global growth, from ad tiers to gaming. We’ll explore how Netflix is adapting to a shifting content landscape, what it means to innovate at massive scale, and what design surprises Netflix has up its sleeve. For anyone building consumer experiences, this will be a masterclass.
+
+11:40AM – 12:10PM
+
+Roundtable 1 Startup
+
+### The Winning Formula: Turning Your Business Into a Trusted, Scalable Community To Drive Growth
+
+![Tasneem Amina](https://techcrunch.com/wp-content/uploads/2025/07/Tas.jpeg?w=150)
+
+[Tasneem Amina](https://techcrunch.com/author/tasneem-amina/)
+
+Co-founder and President Kindred
+
+![Justine Palefsky](https://techcrunch.com/wp-content/uploads/2025/07/Copy-of-DSC04270-e1752186638813.jpg?w=150)
+
+[Justine Palefsky](https://techcrunch.com/author/justine-palefsky/)
+
+Co-founder and CEO Kindred
+
+Join Kindred Co-founders Justine Palefsky and Tasneem Amina as they share how they turned a high-performing tech platform into a community-led movement that redefined home swapping.They’ll explore the strategic blueprint behind building trust at scale to drive exponential growth to include: Turning members into brand ambassadors through a values-driven approach. Using community as a lever for growth and retention. Building for emotional need, not just technical performance. Justine and Tas didn’t just launch a travel product — they revived an outdated category. This talk is for any founder or operator looking to grow an authentic community with integrity, relevance, and resonance.
+
+11:40AM – 12:10PM
+
+Roundtable 2
+
+### How to Train Your Model: Taming AI Agents Without Breaking Them \[encore\]
+
+![Kyla Guru](https://techcrunch.com/wp-content/uploads/2025/07/IMG_4090-e1752187331820.jpg?w=150)
+
+[Kyla Guru](https://techcrunch.com/author/kyla-guru/)
+
+Head of Model Cyber Safety Anthropic
+
+Every AI model faces a fundamental tension: make it too harmless and it becomes less helpful, too helpful and it becomes dangerous. This interactive discussion explores real-world decisions in AI training – from constitutional AI to red-teaming strategies and enforcement approaches. We’ll examine case studies of blending safety and functionality, debate steering techniques that preserve model personality, and crowdsource solutions for common training dilemmas. Attendees will leave with frameworks for balancing safety constraints with performance goals, practical approaches to model character development, and strategies for building AI that’s both helpful and harmless.
+
+12:30PM – 1:20PM
+
+Breakout Stage Fundraising
+
+### Inside the Family Office Playbook: How the Wealthiest Invest in Startups and Venture Funds
+
+![Mariane Bekker](https://techcrunch.com/wp-content/uploads/2024/09/mariane-bekker-2-1.jpg?w=150)
+
+[Mariane Bekker](https://techcrunch.com/author/mariane-bekker/)
+
+Managing Partner Founders Bay
+
+Family offices — the private investment arms of the world’s wealthiest families — now control an estimated $6+ trillion in assets, and their influence on the startup and venture ecosystem is growing fast. In this exclusive fireside discussion with two leading family office principals, we’ll go behind the scenes of how these investors source deals, decide between backing founders directly or investing as LPs in venture funds, and build multi-generational investment strategies. Attendees will learn what makes a pitch stand out, how to structure partnerships that last, and the trends shaping where private capital flows next. Whether you’re a founder looking to unlock new sources of funding or a VC seeking to attract family office LPs, this is your insider’s guide to one of the most powerful — and least understood — forces in venture capital today.
+
+1:00PM – 1:30PM
+
+Disrupt Stage Founder
+
+### From MIRROR to What’s Next: Brynn Putnam Returns to Disrupt
+
+![Brynn Putnam](https://techcrunch.com/wp-content/uploads/2024/10/Brynn-Putnam_Headshot.png?w=150)
+
+[Brynn Putnam](https://techcrunch.com/author/brynn-putnam/)
+
+Founder, MIRROR, and CEO Board
+
+In 2018, Brynn Putnam unveiled MIRROR on the Disrupt stage, launching one of the most talked-about connected fitness products of the decade — and ultimately selling it to Lululemon for $500 million. Now she’s back, and she’s chosen TechCrunch Disrupt 2025 to reveal her brand-new, never-before-seen product. Join us for an exclusive conversation with Putnam as she shares her founder journey, the lessons she’s carried forward, and to get a first look and live demonstration of her new product.
+
+1:00PM – 1:30PM
+
+Industry Stage- AI AI + Hardware
+
+### Intelligence in Motion and the Future of Physical AI
+
+![Jeff Cardenas](https://techcrunch.com/wp-content/uploads/2025/07/Jeff-Cardenas-headshot.jpg?w=150)
+
+[Jeff Cardenas](https://techcrunch.com/author/jeff-cardenas/)
+
+Co-Founder, CEO Apptronik
+
+![Raquel Urtasun](https://techcrunch.com/wp-content/uploads/2024/05/Raquel-Urtasun-Headshot-e1747152192319.jpg?w=150)
+
+[Raquel Urtasun](https://techcrunch.com/author/raquel-urtasun/)
+
+Founder & CEO Waabi
+
+AI in the physical world hasn’t had its ChatGPT moment…yet.. Waabi CEO Raquel Urtasun and Apptronik CEO Jeff Cardenas join us to explore what it takes to bring intelligence into motion, whether it’s behind the wheel or on two legs. From simulation to sensors to scaling safely, this panel explores the breakthroughs driving the next generation of physical machines.
+
+1:20PM – 2:00PM
+
+Builders Stage
+
+### Do Startups Still Need Silicon Valley?
+
+![Anh-Tho Chuong](https://techcrunch.com/wp-content/uploads/2025/06/anh-tho-chuong-profile-1.jpeg?w=150)
+
+[Anh-Tho Chuong](https://techcrunch.com/author/anh-tho-chuong/)
+
+CEO & Co-Founder Lago
+
+![David Hall](https://techcrunch.com/wp-content/uploads/2025/06/David-Hall-Headshot.jpg?w=150)
+
+[David Hall](https://techcrunch.com/author/david-hall/)
+
+Managing Partner, Revolution/Rise of the Rest Revolution
+
+![Tawni Nazario-Cranz](https://techcrunch.com/wp-content/uploads/2025/09/Tawni-Cranz-Headshot-Aug-2025.jpg?w=150)
+
+[Tawni Nazario-Cranz](https://techcrunch.com/author/tawni-nazario-cranz/)
+
+Operating Partner (Venture) SignalFire
+
+While Silicon Valley is still the startup capital, how important is access to it anymore? This panel debates whether founders must plant roots in the Valley to succeed or if opportunity is so strong elsewhere that they don’t need it. Hear perspectives from investors and founders redefining what it means to build, scale, and fund a company in today’s decentralized tech world. While Silicon Valley is still the startup capital, how important is access to it anymore? This panel debates whether founders must plant roots in the Valley to succeed or if opportunity is so strong elsewhere that they don’t need it. Hear perspectives from investors and founders redefining what it means to build, scale, and fund a company in today’s decentralized tech world.
+
+1:55PM – 2:15PM
+
+Industry Stage- AI AI Presented by [![](https://techcrunch.com/wp-content/uploads/2024/05/jetbrains.png?w=90)]( https://www.jetbrains.com/) 
+
+### Vibe coding? Cute. Now Let’s Get Real and Talk about AI Built for Developers
+
+AI’s evolving role in software development has created a tension between rapid code generation and quality. In the real world, true disruption is more than just velocity, it’s about delivering intelligent, reliable software at scale. Join Kirill Skrygan, CEO of JetBrains, for an insightful session on how AI built for developers is reshaping the industry, and why elevating code quality, not just speed, will become the new measure of success.
+
+2:00PM – 3:15PM
+
+Disrupt Stage Startup Battlefield
+
+### The Startup Battlefield – Session 4
+
+![Philip Clark](https://techcrunch.com/wp-content/uploads/2025/06/PhilipClark.webp?w=150)
+
+[Philip Clark](https://techcrunch.com/author/philip-clark/)
+
+Partner Thrive Capital
+
+![Santi Subotovsky](https://techcrunch.com/wp-content/uploads/2025/08/Headshot-2014-1-Hi-Res-e1757022032146.jpg?w=150)
+
+[Santi Subotovsky](https://techcrunch.com/author/santi-subotovsky/)
+
+General Partner Emergence Capital
+
+TechCrunch’s iconic startup competition is back, as entrepreneurs from around the world pitch expert judges and vie for the prestigious Startup Battlefield Cup and equity-free $100,000.
+
+2:00PM – 2:30PM
+
+Builders Stage
+
+### Building What’s Next with the Minds Behind Twitter and Meta
+
+![Adam Bain](https://techcrunch.com/wp-content/uploads/2025/04/IMG_4015.jpg?w=150)
+
+[Adam Bain](https://techcrunch.com/author/adam-bain/)
+
+Co-Founder and Managing Partner 01 Advisors
+
+![Dick Costolo](https://techcrunch.com/wp-content/uploads/2025/04/IMG_4014.jpg?w=150)
+
+[Dick Costolo](https://techcrunch.com/author/dick-costolo/)
+
+Co-Founder and Managing Partner 01 Advisors
+
+![David Fischer](https://techcrunch.com/wp-content/uploads/2025/04/David-Fischer.png?w=150)
+
+[David Fischer](https://techcrunch.com/author/david-fischer/)
+
+General Partner 01 Advisors
+
+Join Adam Bain (former COO, Twitter), Dick Costolo (former CEO, Twitter) and David Fischer (former Chief Revenue Officer, Meta) of 01 Advisors for an insider fireside chat on what it really takes to build, scale, and fund early-stage startups today. From product to growth to fundraising, get candid advice and fresh perspectives from three industry veterans shaping the next wave of tech success.
+
+2:15PM – 2:40PM
+
+Industry Stage- AI AI + Agents
+
+### Synthetic Voices and Real Impact
+
+![Mati Staniszewski](https://techcrunch.com/wp-content/uploads/2025/06/MATI-e1750276565253.png?w=150)
+
+[Mati Staniszewski](https://techcrunch.com/author/mati-staniszewski/)
+
+Co-Founder ElevenLabs
+
+From audiobooks to avatars, synthetic speech is having a moment. ElevenLabs is helping lead the charge. CEO Mati Staniszewski joins us to explore what it takes to build AI that speaks like us and how voice technology is reshaping the creative industries, accessibility, and entertainment.
+
+2:30PM – 3:10PM
+
+Builders Stage
+
+### Where VCs Are Placing Their Bets in 2026
+
+![Nina Achadjian](https://techcrunch.com/wp-content/uploads/2024/05/nina_proof-18_1.max-800x600-1-e1750275562844.jpg?w=150)
+
+[Nina Achadjian](https://techcrunch.com/author/nina-achadjian/)
+
+Partner Index Ventures
+
+![Jerry Chen](https://techcrunch.com/wp-content/uploads/2025/06/2023662-Jerry-Chen-378-cropped.jpg?w=150)
+
+[Jerry Chen](https://techcrunch.com/author/jerry-chen/)
+
+General Partner Greylock
+
+![Viviana Faga](https://techcrunch.com/wp-content/uploads/2024/05/IMG_9419.jpeg?w=150)
+
+[Viviana Faga](https://techcrunch.com/author/viviana-faga/)
+
+General Partner Felicis
+
+Curious where the smart money is heading next? This panel brings together top VCs to share their 2026 investment priorities, emerging sectors, and what innovations are catching their eye. Early-stage founders, this one is for you, get a rare glimpse into the trends and technologies that could shape your business in the year ahead.
+
+2:30PM – 3:20PM
+
+Breakout Stage Startup
+
+### Startups, Stories, and the Fight for Attention 
+
+![Jenna Birch](https://techcrunch.com/wp-content/uploads/2025/08/IMG_5482.jpeg?w=150)
+
+[Jenna Birch](https://techcrunch.com/author/jenna-birch/)
+
+Founder SISU
+
+![Allie Cefalo](https://techcrunch.com/wp-content/uploads/2025/08/Allie-Cefalo_Headshot.jpg?w=150)
+
+[Allie Cefalo](https://techcrunch.com/author/allie-cefalo/)
+
+Partner, Marketing Kleiner Perkins
+
+![Chantelle Darby](https://techcrunch.com/wp-content/uploads/2025/08/Chantelle-Darby-1-e1755108704715.jpg?w=150)
+
+[Chantelle Darby](https://techcrunch.com/author/chantelle-darby/)
+
+Founder Darby PR
+
+In a fractured media landscape of challenger brands competing with legacy players, learn how to win attention and influence your audience from three VC communications veterans. This session will give founders clear, no-BS guidance on when they actually need PR and what comms strategies they should be fine-tuning (earlier than they realize). Learn how to build authentic, lasting relationships with journalists, podcasters, and independent creators that cut through today’s AI-driven noise. Get practical strategies for navigating a shifting media landscape where niche voices can be more impactful than legacy outlets. Hear how to avoid exploitative PR tactics, spot when media attention could hurt more than help your startup, and master the art of when to speak and when to stay quiet. Walk away with a new playbook for storytelling that drives real business results, not vanity headlines.
+
+2:40PM – 3:10PM
+
+Roundtable 1 Startup
+
+### The Winning Formula: Turning Your Business Into a Trusted, Scalable Community To Drive Growth \[encore\]
+
+![Tasneem Amina](https://techcrunch.com/wp-content/uploads/2025/07/Tas.jpeg?w=150)
+
+[Tasneem Amina](https://techcrunch.com/author/tasneem-amina/)
+
+Co-founder and President Kindred
+
+![Justine Palefsky](https://techcrunch.com/wp-content/uploads/2025/07/Copy-of-DSC04270-e1752186638813.jpg?w=150)
+
+[Justine Palefsky](https://techcrunch.com/author/justine-palefsky/)
+
+Co-founder and CEO Kindred
+
+Join Kindred Co-founders Justine Palefsky and Tasneem Amina as they share how they turned a high-performing tech platform into a community-led movement that redefined home swapping.They’ll explore the strategic blueprint behind building trust at scale to drive exponential growth to include: Turning members into brand ambassadors through a values-driven approach. Using community as a lever for growth and retention. Building for emotional need, not just technical performance. Justine and Tas didn’t just launch a travel product — they revived an outdated category. This talk is for any founder or operator looking to grow an authentic community with integrity, relevance, and resonance.
+
+3:00PM – 3:25PM
+
+Industry Stage- AI AI + Defense
+
+### Building Intelligence for Modern Defense
+
+![Ethan Thornton](https://techcrunch.com/wp-content/uploads/2025/03/EthanThornton_headshot.webp?w=150)
+
+[Ethan Thornton](https://techcrunch.com/author/ethan-thornton/)
+
+CEO and Founder Mach Industries
+
+From stealth mode to center stage, Mach Industries is bringing AI into one of the world’s most complex and controversial sectors: defense. CEO Ethan Thornton joins us to talk about what it takes to build in high-stakes environments, where speed and autonomy matter most, and why next-gen infrastructure starts with rethinking the fundamentals.
+
+3:10PM – 3:25PM
+
+Builders Stage
+
+### Live Demo of Moxi the Humanoid Robot
+
+Hospitals are complex, high-pressure workplaces, and robotics and AI are being developed to take on routine tasks that free up staff for patient care. Humanoid robots like Moxi, built by Diligent Robotics, are already deployed in hospitals to manage deliveries and ease daily workloads. In this live demo, you’ll see how Moxi navigates hallways, avoids obstacles, and interacts with people in real time. The session will explore the opportunities and challenges of bringing socially intelligent robots into healthcare, and where the technology is headed next.
+
+3:25PM – 3:50PM
+
+Industry Stage- AI AI + Hardware
+
+### Driving Intelligence
+
+![Alex Kendall](https://techcrunch.com/wp-content/uploads/2025/06/AlexKendallCo-founderandCEO-1-e1750276175747.jpg?w=150)
+
+[Alex Kendall](https://techcrunch.com/author/alex-kendall/)
+
+CEO Wayve
+
+From self-driving cars to self-learning systems, Alex Kendall is rethinking how machines perceive and act in the world. The Wayve CEO joins us to explore how real-world autonomy is shaping the next chapter of AI, and why breakthroughs on the road may unlock progress far beyond it.
+
+3:30PM – 4:20PM
+
+Breakout Stage AI
+
+### Embracing AI for a Better Digital Future
+
+![Matt Madrigal](https://techcrunch.com/wp-content/uploads/2025/07/Matt-Madrigal-Pinterest-Headshot.png?w=150)
+
+[Matt Madrigal](https://techcrunch.com/author/matt-madrigal/)
+
+Chief Technology Officer Pinterest
+
+We’re at a crossroads for AI, where the norms and innovations we cement now could define whether AI is additive instead of addictive, inclusive instead of harmful. As AI reshapes digital experiences, leaders must pioneer a new path. Matt can explore how AI works “under the hood” at Pinterest-powering its positivity, personalization for users, and advertiser performance and internal productivity, and how Pinterest charts a different course from other platforms through its vision for tuning AI for good. In a landscape often dominated by “engagement by enragement” models, Pinterest proves that AI can be both powerful and responsible, drive innovation and keep users’ well-being at the forefront.
+
+3:00PM – 3:30PM
+
+Deal Flow Cafe Investor Pass StrictlyVC
+
+### StrictlyVC Welcome and Networking
+
+The LP Track at TechCrunch Disrupt 2025 will provide both GPs and LPs with unprecedented access to limited partner thinking in today’s challenging fundraising environment. With extended exit timelines and fewer funds successfully raising capital than in the previous decade, the StrictlyVC sessions address the most pressing concerns facing fund managers: navigating the liquidity drought, understanding evolving LP selection criteria, and building strategic relationships while exploring frontier opportunities. Each session delivers actionable intelligence directly from influential LP voices, helping GPs and LPs adapt to the new market reality.  
+\*\*\*The StrictlyVC program is dedicated to investor pass holders only.\*\*\*
+
+3:30PM – 3:45PM
+
+Deal Flow Cafe Investor Pass StrictlyVC Presented by [![](https://techcrunch.com/wp-content/uploads/2025/08/CMYKlogo_left_black1.png?w=90)]( https://www.innovationisrael.org.il/en) 
+
+### Global High-Tech at a Crossroads: Trends, Emerging Technologies, and the Role of Deep-Tech
+
+![Dror Bin](https://techcrunch.com/wp-content/uploads/2025/09/Dror-Bin-CEO_Israel-Innovation-Authority.jpg?w=150)
+
+[Dror Bin](https://techcrunch.com/author/dror-bin/)
+
+CEO Israel Innovation Authority
+
+The global high-tech economy is navigating a complex landscape characterized by rapid technological advancements, evolving investment trends, increasing risks, and emerging opportunities. In this shifting environment, venture capitalists face tighter markets and shifting priorities due to global geopolitical headwinds. In this interview, the CEO of the Israel Innovation Authority will discuss global trends and outline how Israel, one of the world’s most dynamic and resilient innovation hubs, balances resilience and excellence with both local and global challenges. The discussion will also highlight how the country is doubling down on supporting bold deep-tech founders and investors, even in the toughest  
+\*\*\*The StrictlyVC program is dedicated to investor pass holders only.\*\*\*
+
+3:45PM – 4:15PM
+
+Deal Flow Cafe Investor Pass StrictlyVC
+
+### The Liquidity Reckoning: Navigating the New LP Landscape
+
+![Lara Banks](https://techcrunch.com/wp-content/uploads/2025/08/lara-banks_website.jpg?w=150)
+
+[Lara Banks](https://techcrunch.com/author/lara-banks/)
+
+Managing Director and Head of Private Equity Makena Capital
+
+![Michael Kim](https://techcrunch.com/wp-content/uploads/2025/08/MK-e1756217911375.jpg?w=150)
+
+[Michael Kim](https://techcrunch.com/author/michael-kim/)
+
+Founder and Partner Cendana Capital
+
+Exits have slowed to a trickle, distributions are under pressure, and LPs are recalibrating their venture allocations. Michael Kim and Lara Banks unpack how the liquidity drought is reshaping LP–GP relationships, fund pacing, and capital commitments. Expect candid discussion on where LPs see opportunity, where they’re pulling back, and how GPs can position themselves to weather the storm.  
+\*\*\*The StrictlyVC program is dedicated to investor pass holders only.\*\*\*
+
+4:15PM – 4:45PM
+
+Deal Flow Cafe Investor Pass StrictlyVC
+
+### Inside the LP Selection Process: Differentiating in a Competitive Market
+
+![Kelli Fontaine](https://techcrunch.com/wp-content/uploads/2025/08/Kelli-e1756218351155.jpg?w=150)
+
+[Kelli Fontaine](https://techcrunch.com/author/kelli-fontaine/)
+
+Partner Cendana Capital
+
+![Michael Kim](https://techcrunch.com/wp-content/uploads/2025/08/MK-e1756217911375.jpg?w=150)
+
+[Michael Kim](https://techcrunch.com/author/michael-kim/)
+
+Founder and Partner Cendana Capital
+
+With fundraising timelines stretching and capital concentration intensifying, LPs are more selective than ever. What actually gets a GP noticed and funded in 2025’s competitive market? Michael Kim and Kelli Fontaine of Cendana Capital pull back the curtain on how LPs evaluate emerging managers, assess fund strategy, and weigh track records against market conditions. Expect candid insights on building trust, standing out in a crowded field, and avoiding the pitfalls that quietly kill commitments.  
+\*\*\*The StrictlyVC program is dedicated to investor pass holders only.\*\*\*
+
+5:00PM – 5:20PM
+
+Deal Flow Cafe Investor Pass StrictlyVC
+
+### GP Perspectives on LP Relationships
+
+![Kevin Hartz](https://techcrunch.com/wp-content/uploads/2025/09/Kevin_Hartz-e1758140198722.jpg?w=150)
+
+[Kevin Hartz](https://techcrunch.com/author/kevin-hartz/)
+
+General Partner A\*
+
+The GP–LP dynamic is the quiet engine that drives venture capital. Kevin Hartz of A\* shares a founder-turned-investor’s perspective on cultivating lasting LP partnerships, managing expectations through cycles, and aligning on both vision and returns. From first meetings to multi-fund commitments, Hartz offers hard-earned advice on building trust and turning transactional relationships into long-term alliances.  
+\*\*\*The StrictlyVC program is dedicated to investor pass holders only.\*\*\*
+
+No sessions on this day. Reset filters or choose another day.
+
+## October 29th
+
+8:00AM – 10:00AM
+
+Deal Flow Cafe Investor Pass Presented by [![](https://techcrunch.com/wp-content/uploads/2025/08/CMYKlogo_left_black1.png?w=90)]( https://www.innovationisrael.org.il/en) 
+
+### Investors Breakfast Fireside Chat: Innovation in the next decade – The Next Growth Engines and funding models
+
+As we look a decade into the future, the global high-tech landscape will be increasingly influenced by the evolving dynamics between the public and private sectors. During this exclusive reception, we will explore with VIP guests: Lior Susan, Founding Partner at Eclipse, and Matt Ocko, Co-founder, Co-Managing Partner at DCVC on how innovative joint funding models, regulatory sandboxes, and collaborative policy frameworks can drive new waves of innovation. The discussion will cover investment trends across the hi-tech sector, with a particular emphasis on deep tech as a crucial growth engine. The discussion will highlight how Israel is positioning itself amidst these trends and what founders, investors, and LPs worldwide can learn from its deep-tech investments and potential public-private partnerships. Breakfast and coffee will be served along with ample time for networking during this reception.  
+\*\*\* This event is open to investor pass holders only.\*\*\*
+
+9:30AM – 10:10AM
+
+Builders Stage
+
+### Seed Money Secrets Every Founder Should Know
+
+![Gabby Cazeau](https://techcrunch.com/wp-content/uploads/2025/04/Gabby-Cazeau-e1745521142575.jpg?w=150)
+
+[Gabby Cazeau](https://techcrunch.com/author/gabby-cazeau/)
+
+Partner Harlem Capital
+
+![Marlon Nichols](https://techcrunch.com/wp-content/uploads/2024/05/MarlonNichols-3-e1745520882143.jpg?w=150)
+
+[Marlon Nichols](https://techcrunch.com/author/marlon-nichols/)
+
+Co-Founder & Managing General Partner MaC Venture Capital
+
+![Maria Palma](https://techcrunch.com/wp-content/uploads/2018/08/Maria-Palma_headshot-1.png?w=150)
+
+[Maria Palma](https://techcrunch.com/author/maria-palma/)
+
+General Partner Freestyle Capital
+
+Raising your first round is tough—but far from impossible. This panel brings together experienced investors to break down what it really takes to close a seed round. From crafting the right pitch to ensuring you are greenlighting the right partners, get actionable advice to turn investor interest into capital.
+
+9:30AM – 10:25AM
+
+Industry Stage- AI AI + Creativity
+
+### From Ads to Films: Creating with Code
+
+![Alejandro Matamala Ortiz](https://techcrunch.com/wp-content/uploads/2025/04/Alejandro-Matamala-Ortiz-Headshot.jpg?w=150)
+
+[Alejandro Matamala Ortiz](https://techcrunch.com/author/alejandro-matamala-ortiz/)
+
+Co-Founder and Chief Design Officer Runway
+
+Creatives aren’t being replaced, they’re being rearmed. Alejandro Matamala Ortiz, co-founder of Runway, shares how creative work is being reshaped by machine learning, what AI-native tools mean for visual storytelling, and why this is just the beginning of a new creative era.
+
+9:30AM – 10:20AM
+
+Breakout Stage AI
+
+### Being Heard in the Age of AI
+
+![Qianwen Chen](https://techcrunch.com/wp-content/uploads/2025/09/IMG_6210-e1756902565203.jpg?w=150)
+
+[Qianwen Chen](https://techcrunch.com/author/qianwen-chen/)
+
+CEO EchoHer
+
+![Chenxi Wang](https://techcrunch.com/wp-content/uploads/2025/09/Chenxi-Wang_highres-e1756902695750.jpg?w=150)
+
+[Chenxi Wang](https://techcrunch.com/author/chenxi-wang/)
+
+General Partner Rain Capital
+
+In a world saturated with AI-generated content, the challenge isn’t speaking—it’s being heard. The Age of AI has made it effortless to create but harder than ever to cut through the noise. For founders and builders, the ability to cut through the noise is no longer optional—it’s survival. This breakout panel explores what it really takes to stand out when AI can mimic anyone and algorithms dictate who gets noticed. We’ll examine the evolving role of personal brand, the shifting dynamics of narrative and design, and how credibility is built when trust is fragile and attention is scarce. Attendees can expect an honest conversation about the intersection of AI, branding, and influence, with insights into how today’s leaders navigate visibility, build trust, and make their voices resonate in an increasingly noisy digital landscape.
+
+10:00AM – 10:30AM
+
+Roundtable 1
+
+### AI Evaluation 101: Addressing Challenges to Real-World AI Applications
+
+![Rohit Patel](https://techcrunch.com/wp-content/uploads/2025/06/Rohit_Patel_Headshot.jpeg?w=150)
+
+[Rohit Patel](https://techcrunch.com/author/rohit-patel/)
+
+Director, Meta Superintelligence Labs Meta
+
+This session looks at GenAI under the hood, breaking down how neural networks generate language. We discuss challenges to real-world AI deployment, and why evaluation is key to ensuring success. We’ll compare automated, judge-based and human-rated methods for assessing AI performance. Attendees will learn how to build evaluations for their use-cases to assess AI vs. human performance on their tasks.
+
+10:00AM – 10:30AM
+
+Roundtable 2
+
+### Scaling Search and AI for Millions: Lessons from Reddit Search \[encore\]
+
+![Rachel Miller](https://techcrunch.com/wp-content/uploads/2025/06/IMG_5496_VSCO.jpg?w=150)
+
+[Rachel Miller](https://techcrunch.com/author/rachel-miller/)
+
+Product Manager Reddit
+
+Let’s talk about what it really takes to build AI at scale in a way that users trust. This conversation dives into Reddit’s approach to scaling Search and ML systems for millions globally—balancing relevance, safety, and bias mitigation. We’ll explore tough questions around community expectations, ethical tradeoffs, and real-world implementation. Bring your startup’s challenges and join a candid, collaborative discussion.
+
+10:10AM – 10:40AM
+
+Builders Stage
+
+### A Conversation with Investor Extraordinaire Elad Gil
+
+![Elad Gil](https://techcrunch.com/wp-content/uploads/2017/01/Screenshot-2025-08-06-at-1.40.57PM.png?w=150)
+
+[Elad Gil](https://techcrunch.com/author/elad-gil/)
+
+CEO Gil & Co
+
+Before most of the world had experienced ChatGPT, Elad Gil had already written seed checks to startups like Perplexity, Character.AI, and Harvey. This on top of checks into, for example, Airbnb, Airtable, Anduril, Brex, Checkr, Coinbase, Deel, Figma, Flexport, Gitlab, Gusto, Instacart, Notion, Opendoor, Pinterest, Rippling, Square, Stripe … you get the idea.
+
+11:05AM – 11:25AM
+
+Disrupt Stage
+
+### Survive, Scale, Reinvent: Lessons from a Cloud OG
+
+![Aaron Levie](https://techcrunch.com/wp-content/uploads/2021/01/trxeap4eunmjttlctfuk.jpg?w=150)
+
+[Aaron Levie](https://techcrunch.com/author/aaron-levie/)
+
+Co-Founder & CEO Box
+
+Aaron Levie built Box before cloud was cool and the company is still thriving while competitors have come and gone. Known for his sharp takes and startup instincts, Levie joins us to unpack how to keep innovating inside a public company, the possibilities AI and agents bring to enterprise software, and why reinvention is the name of the game in tech right now. Expect real talk and a playbook for building companies that last in the world of AI.
+
+11:00AM – 11:40AM
+
+Builders Stage
+
+### With Vibe Coding, Do Early Stage Startups Still Need to Hire 10x Engineers?
+
+![David Cramer](https://techcrunch.com/wp-content/uploads/2025/04/DC-15-e1745523948856.jpg?w=150)
+
+[David Cramer](https://techcrunch.com/author/david-cramer/)
+
+Co-Founder and CPO Sentry
+
+![Zach Lloyd](https://techcrunch.com/wp-content/uploads/2025/08/Warp_Zach-Lloyd-3-e1756218145998.jpeg?w=150)
+
+[Zach Lloyd](https://techcrunch.com/author/zach-lloyd/)
+
+CEO & Founder Warp
+
+![Lauri Moore](https://techcrunch.com/wp-content/uploads/2025/05/lauri-moore-BVP.jpg?w=150)
+
+[Lauri Moore](https://techcrunch.com/author/lauri-moore/)
+
+Partner Bessemer Venture Partners
+
+Vibe coding products have completely changed the speed, cost and technical skill needed to build products, from prototypes to shipping. This is especially true for early stage startups. Some makers of these products have even declared that no one needs to learn to code anymore. If so, that means startups don’t need to fill their early rosters with the famed 10x coders. But how much of that is hype and how much is reality? Our panelists will dive into how the developer tool world is changing and what comes next.
+
+11:10AM – 11:35AM
+
+Industry Stage- AI AI + Agents
+
+### Shaping the AI Stack with Hugging Face
+
+![Thomas Wolf](https://techcrunch.com/wp-content/uploads/2025/09/20241009-Thomas_Web-summit_2-e1758045324866.png?w=150)
+
+[Thomas Wolf](https://techcrunch.com/author/thomas-wolf/)
 
 Co-Founder and Chief Science Officer
 
-View Profile
+From models and datasets to ethics and infrastructure, Hugging Face is helping define what building responsibly with AI actually looks like. Co-founder and CSO Thomas Wolf joins us to talk about the shifting power dynamics in the AI ecosystem, the rise of community-led innovation, and what it takes to stay open while moving fast.
 
-[Explore our growing speaker lineup](https://techcrunch.com/events/tc-disrupt-2025/speakers/)
+11:30AM – 12:45PM
 
-* * *
+Disrupt Stage Startup Battlefield
 
-## More reasons to attend Disrupt
+### The Startup Battlefield Final
 
-* * *
+![Kirsten Green](https://techcrunch.com/wp-content/uploads/2024/05/Kirsten-Green-headshot-e1739923509203.jpeg?w=150)
 
-## Find Your Ticket Type
+[Kirsten Green](https://techcrunch.com/author/kirsten-green/)
 
-Find the ticket type that fits you best with up to $600+ savings. Groups can save up to 30%.
+Founding Partner Forerunner
 
-[Explore Tickets](https://techcrunch.com/events/tc-disrupt-2025/tickets/)
+![Kevin Hartz](https://techcrunch.com/wp-content/uploads/2025/09/Kevin_Hartz-e1758140198722.jpg?w=150)
 
-* * *
+[Kevin Hartz](https://techcrunch.com/author/kevin-hartz/)
 
-## Latest TechCrunch Disrupt 2025 news
+General Partner A\*
 
-*   ![](https://techcrunch.com/wp-content/uploads/2023/06/party_crowd.png?w=668)
-    
-    [TechCrunch Disrupt 2025](https://techcrunch.com/events/tc-disrupt-2025/)
-    
-    ### [Final hours to apply: Be the life of TechCrunch Disrupt 2025 by hosting your own Side Event](https://techcrunch.com/2025/09/19/final-hours-be-the-life-of-techcrunch-disrupt-2025-by-hosting-your-own-side-event/)
-    
-    *   [TechCrunch Events](https://techcrunch.com/author/techcrunch-events/)
-    
-    7 hours ago
-    
-*   ![](https://techcrunch.com/wp-content/uploads/2025/06/52457178574_dcedf0a9a3_o-1.jpg?w=562)
-    
-    [TechCrunch Disrupt 2025](https://techcrunch.com/events/tc-disrupt-2025/)
-    
-    ### [Meet the latest VC judges joining Startup Battlefield 200 at TechCrunch Disrupt 2025](https://techcrunch.com/2025/09/19/meet-the-latest-vc-judges-joining-startup-battlefield-200-at-techcrunch-disrupt-2025/) 
-    
-    *   [TechCrunch Events](https://techcrunch.com/author/techcrunch-events/)
-    
-    7 hours ago
-    
-*   ![](https://techcrunch.com/wp-content/uploads/2024/10/Battlefield-crowd.jpg?w=562)
-    
-    [TechCrunch Disrupt 2025](https://techcrunch.com/events/tc-disrupt-2025/)
-    
-    ### [One week left: Lock in discounted pricing for TechCrunch Disrupt 2025](https://techcrunch.com/2025/09/19/one-week-left-lock-in-discounted-pricing-for-techcrunch-disrupt-2025/)
-    
-    *   [TechCrunch Events](https://techcrunch.com/author/techcrunch-events/)
-    
-    8 hours ago
-    
+![Aileen Lee](https://techcrunch.com/wp-content/uploads/2015/07/Aileen-Lee-Headshot-1-e1726762536965.jpg?w=150)
 
-[Read more Disrupt 2025 news](https://techcrunch.com/tag/techcrunch-disrupt-2025/)
+[Aileen Lee](https://techcrunch.com/author/aileen-lee/)
 
-## Press/Media Passes
+Founder & Managing Partner Cowboy Ventures
 
-![Colin Kaepernick](https://techcrunch.com/wp-content/uploads/2024/10/54106164443_a40d659cce_k.jpg?w=680)
+![Kevin Rose](https://techcrunch.com/wp-content/uploads/2015/03/Kevin-Rose-Headshot-Photo-Credit-Rainer-Hosch-1-e1757573169102.jpg?w=150)
 
-**Image Credits:**under a Kimberly White/Getty Images for TechCrunch license.
+[Kevin Rose](https://techcrunch.com/author/kevin-rose/)
 
-Press/Media?
+Founder Digg
 
-Every year, hundreds of top media outlets cover TechCrunch Disrupt — from independent reporters to veteran TC hosts. It’s where the brightest voices in tech gather. Follow the steps below to apply for your free media pass.
+The grand final of TechCrunch’s iconic startup competition. Watch the final 5 teams from around the world pitch expert judges and vie for the Startup Battlefield Cup and $100,000.
 
-[Apply Now](https://techcrunch.com/events/tc-disrupt-2025/press/)
+11:30AM – 12:20PM
 
-Influencer/Content Creator?
+Breakout Stage AI + Agents
 
-TechCrunch Disrupt regularly partners with leading voices across tech, startups, and beyond. As a Creator Partner, you’ll receive free passes and the chance to amplify Disrupt 2025 with a discount to your audience.
+### AI & Agents: Shaping how we Build, Live & Connect
 
-[Apply Now](https://techcrunch.com/events/tc-disrupt-2025/influencer/)
+![Patrick Murphy](https://techcrunch.com/wp-content/uploads/2023/11/Maket-Patrick-Headshot-e1756217675915.jpg?w=150)
 
-* * *
+[Patrick Murphy](https://techcrunch.com/author/patrick-murphy/)
 
-[
+CEO & Co-Founder Maket
 
-![The Aerospace Corporation Logo](https://techcrunch.com/wp-content/uploads/2024/05/AeroLogo_Wide_Indigo.png)
+![Karan Vaidya](https://techcrunch.com/wp-content/uploads/2025/08/IMG_7191.png?w=150)
 
+[Karan Vaidya](https://techcrunch.com/author/karan-vaidya/)
 
+Co-Founder Composio
 
-](http://www.aerospace.org)[
+![Alyx van der Vorm](https://techcrunch.com/wp-content/uploads/2025/09/headshot-e1756903127793.png?w=150)
 
-![Bright Data Logo](https://techcrunch.com/wp-content/uploads/2025/09/Bright-Data-5.svg)
+[Alyx van der Vorm](https://techcrunch.com/author/alyx-van-der-vorm/)
 
+Founder & CEO Clyx
 
+![Jeremiah Owyang](https://techcrunch.com/wp-content/uploads/2023/07/Jeremiah-Owyang.jpg?w=150)
 
-](https://brightdata.com/)[
+[Jeremiah Owyang](https://techcrunch.com/author/jeremiah-owyang/)
 
-![Google Cloud Logo](https://techcrunch.com/wp-content/uploads/2024/05/lockup_GoogleCloud_FullColor_rgb_2900x512px.png)
+General Partner Blitzscaling Ventures
 
+AI is no longer just a back-end tool—it’s shaping how we design our homes, connect in communities, and empower agents to take meaningful action. This panel brings together three founders at the forefront of this shift: Alyx van der Vorm (Clyx), building a new kind of social network centered on real-world connection; Patrick Murphy (Maket.ai), democratizing architecture with generative AI that produces zoning-compliant home designs in minutes; and Karan Vaidya (Composio), powering the next wave of AI agents with tools that enable real-world execution. Moderated by Jeremiah Owyang, General Partner at Blitzscaling Ventures and founder of the Llama Lounge event series, the session will explore how AI and agents are redefining the way we live and interact—and what it takes to build enduring companies that thrive beyond the hype.
 
+11:40AM – 12:10PM
 
-](https://cloud.google.com/)[
+Roundtable 2
 
-![iMerit Inc. Logo](https://techcrunch.com/wp-content/uploads/2025/09/iMerit-Logo.png)
+### AI Evaluation 101: Addressing Challenges to Real-World AI Applications \[encore\]
 
+![Rohit Patel](https://techcrunch.com/wp-content/uploads/2025/06/Rohit_Patel_Headshot.jpeg?w=150)
 
+[Rohit Patel](https://techcrunch.com/author/rohit-patel/)
 
-](https://imerit.net/)[
+Director, Meta Superintelligence Labs Meta
 
-![JetBrains Logo](https://techcrunch.com/wp-content/uploads/2024/05/jetbrains.png)
+This session looks at GenAI under the hood, breaking down how neural networks generate language. We discuss challenges to real-world AI deployment, and why evaluation is key to ensuring success. We’ll compare automated, judge-based and human-rated methods for assessing AI performance. Attendees will learn how to build evaluations for their use-cases to assess AI vs. human performance on their tasks.
 
+12:30PM – 1:20PM
 
+Breakout Stage Startup
 
-](https://www.jetbrains.com/)[
+### Discovery to Disruption: Turning Research into Venture-Backable Companies
 
-![Mercury Logo](https://techcrunch.com/wp-content/uploads/2022/05/Mercury-logo-horizontal-black.png)
+![Pratik Nimbalkar](https://techcrunch.com/wp-content/uploads/2025/08/20231207_SkyDeckFounders_bhs_158-Copy.jpg?w=150)
 
+[Pratik Nimbalkar](https://techcrunch.com/author/pratik-nimbalkar/)
 
+CEO Plaid Semiconductors
 
-](https://www.mercury.com?utm_source=event&utm_medium=sponsored_event&utm_campaign=25q4_techcrunch_disrupt)[
+![Jared O](https://techcrunch.com/wp-content/uploads/2025/08/OLeary_Headshot.jpg?w=150)
 
-![Pebl Logo](https://techcrunch.com/wp-content/uploads/2025/09/PEBL_Logo.png)
+[Jared O](https://techcrunch.com/author/jared-o/)
 
+Co-Founder & CEO SirenOpt, Inc.
 
+![Chon Tang](https://techcrunch.com/wp-content/uploads/2025/08/chon-tang.png?w=150)
 
-](https://hellopebl.com/)[
+[Chon Tang](https://techcrunch.com/author/chon-tang/)
 
-![Silkroad Innovation Hub Logo](https://techcrunch.com/wp-content/uploads/2024/08/logo_sih_horizont.png)
+Managing Partner Berkeley SkyDeck Fund
 
+![Asad Tirmizi](https://techcrunch.com/wp-content/uploads/2025/08/Asad-Tirmizi-2.jpg?w=150)
 
+[Asad Tirmizi](https://techcrunch.com/author/asad-tirmizi/)
 
-](https://silkroadinnovationhub.com/)[
+CEO T-robotics
 
-![TriNet Logo](https://techcrunch.com/wp-content/uploads/2024/05/trinet_2c_rgb_lg_digital.png)
+Join us for an exclusive session on transforming cutting-edge deep tech research into scalable, venture-ready companies. Hear from trailblazing founders in the Berkeley SkyDeck portfolio who have successfully spun out their research into high-growth startups with major commercial impact. Topics: – How do you identify whether your research has a viable market application or product opportunity? – How do you find the right Co-Founder or team? – What are early validation strategies for Deep Tech? – How do you raise your first $1mm of funding? Moderator: – Chon Tang, Managing Partner of Berkeley SkyDeck Fund Panelists: – Jared O’Leary, Co-Founder & CEO of SirenOpt – Asad Tirmizi, Founder of T-Robotics – Pratik Nimbalkar, Co-Founder of Plaid Semiconductors
 
+1:00PM – 1:30PM
 
+Industry Stage- AI AI + Agents
 
-](http://www.trinet.com/)
+### Love, Lies & Algorithms: The Truth About AI in Matters of the Heart
 
-[
+![Dr. Amanda Gesselman](https://techcrunch.com/wp-content/uploads/2025/07/amanda.jpg?w=150)
 
-![Artisan Logo](https://techcrunch.com/wp-content/uploads/2024/05/Artisan-Landscape-Logo-Black.png)
+[Dr. Amanda Gesselman](https://techcrunch.com/author/amanda-gesselman/)
 
+Research Scientist Kinsey Institute
 
+![Mark Kantor](https://techcrunch.com/wp-content/uploads/2025/07/Mark-Kantor-e1753715997743.jpg?w=150)
 
-](https://www.artisan.co/)[
+[Mark Kantor](https://techcrunch.com/author/mark-kantor/)
 
-![Epic Aircraft, LLC Logo](https://techcrunch.com/wp-content/uploads/2025/08/Epic_Horizontal_Aircraft-9.jpg)
+Head of Product at Tinder Tinder
 
+![Eugenia Kuyda](https://techcrunch.com/wp-content/uploads/2025/09/Replika-Founder-Eugenia-Kuyda_1-e1758044772707.jpg?w=150)
 
+[Eugenia Kuyda](https://techcrunch.com/author/eugenia-kuyda/)
 
-](https://epicaircraft.com/)[
+Founder Replika
 
-![Greenfield Partners Logo](https://techcrunch.com/wp-content/uploads/2025/07/Greenfield-Partners-for-Scale-Logo-Blue.png)
+AI is changing the way we meet, match, and fall in love, sometimes in ways we don’t even notice. This panel explores how technology is reshaping modern relationships, for better or worse. From dating apps to digital soulmates, we’ll look at where things are headed and what that means for the human heart.
 
+1:00PM – 1:40PM
 
+Builders Stage
 
-](https://www.greenfield-growth.com/)[
+### Preparing Now for Your Later Stage Raise
 
-![Israel Innovation Authority Logo](https://techcrunch.com/wp-content/uploads/2025/08/CMYKlogo_left_black1.png)
+![Lila Preston](https://techcrunch.com/wp-content/uploads/2024/05/Lila-Preston-Headshot-e1748454397856.jpg?w=150)
 
+[Lila Preston](https://techcrunch.com/author/lila-preston/)
 
+Head of Growth Equity Generation Investment Management
 
-](https://www.innovationisrael.org.il/en)[
+![Andrea Thomaz](https://techcrunch.com/wp-content/uploads/2024/05/2k24-0002-AK9_8713_1-e1750276062547.jpg?w=150)
 
-![KOTRA Logo](https://techcrunch.com/wp-content/uploads/2019/08/kotra_logo_square-1.png)
+[Andrea Thomaz](https://techcrunch.com/author/andrea-thomaz/)
 
+CEO & Co-Founder Diligent Robotics
 
+![Zeya Yang](https://techcrunch.com/wp-content/uploads/2025/04/Zeya-Yang-e1744309355107.jpg?w=150)
 
-](https://www.kotra.or.kr/english/index.do)[
+[Zeya Yang](https://techcrunch.com/author/zeya-yang/)
 
-![MongoDB Logo](https://techcrunch.com/wp-content/uploads/2024/08/MongoDB_ForestGreen.png)
+Partner IVP
 
+Raising later-stage rounds takes more than luck — it’s about strategy from day one. Join these 2 exceptional VCs and an experienced founder as they share how to build metrics, storytelling, and relationships that position your startup for future funding success. Learn the key moves that set you up to close bigger rounds with confidence.
 
+1:40PM – 2:20PM
 
-](https://www.mongodb.com)[
+Builders Stage
 
-![Scale Venture Partners Logo](https://techcrunch.com/wp-content/uploads/2024/10/ScaleVP_Lockstack_Green_1000.png)
+### The Pros and Cons of Hiring AI Agents as Early Employees
 
+![Jaspar Carmichael-Jack](https://techcrunch.com/wp-content/uploads/2025/08/JasparA-2-e1754503045933.jpg?w=150)
 
+[Jaspar Carmichael-Jack](https://techcrunch.com/author/jaspar-carmichael-jack/)
 
-](https://www.scalevp.com/)[
+Co-Founder & CEO Artisan
 
-![SymphonyAI Logo](https://techcrunch.com/wp-content/uploads/2025/09/SAI-logo-horizontal-full-color.jpg)
+![Sarah Franklin](https://techcrunch.com/wp-content/uploads/2025/08/Sarah-Franklin-headshot-e1755694658141.webp?w=150)
 
+[Sarah Franklin](https://techcrunch.com/author/sarah-franklin/)
 
+CEO Lattice
 
-](https://www.symphonyai.com)[
+![Caleb Peffer](https://techcrunch.com/wp-content/uploads/2025/08/IMG_5763-e1755012254346.jpeg?w=150)
 
-![Warp Logo](https://techcrunch.com/wp-content/uploads/2025/08/Warp-Wordmark-Black.svg)
+[Caleb Peffer](https://techcrunch.com/author/caleb-peffer/)
 
+Co-Founder and CEO Firecrawl
 
+Most startups today are using AI in some capacities: vibe coding prototypes or new features, deep research via their favorite chat before sales calls. Many are also building AI products, or at least including AI options and features. So should you embed AI at the root operations of your businesses like hiring AI agents instead of humans for sales? For customer support? To automate your billing? Learn how to pick the right use cases, build smarter workflows, and get the biggest impact with limited resources.
 
-](https://warp.dev)
+1:50PM – 2:20PM
 
-[View all](/events/tc-disrupt-2025/partners/)
+Industry Stage- AI AI + Defense
 
-* * *
+### AI and National Security in the High-Stakes Race to Innovate
 
-## Partner with TechCrunch
+![Sri Chandrasekar](https://techcrunch.com/wp-content/uploads/2025/06/Sri-Chandrasekar-1.jpg?w=150)
 
-TechCrunch offers many ways for partners to engage directly with our attendees before, during, and after the event. Get in touch with us to learn more.
+[Sri Chandrasekar](https://techcrunch.com/author/all-sri-chandrasekar/)
 
-[Get in Touch](https://techcrunch.com/advertise/)
+Managing Partner Point72 Ventures
 
-## Location
+![Justin Fanelli](https://techcrunch.com/wp-content/uploads/2025/07/Fanelli-bio-1-1.jpg?w=150)
 
-![San Francisco](https://techcrunch.com/wp-content/uploads/2023/12/GettyImages-1145953370.jpg?w=300)
+[Justin Fanelli](https://techcrunch.com/author/justin-fanelli/)
 
-### Moscone West
+Chief Technology Officer US Dept of Navy
 
-800 Howard St.  
-San Francisco, CA 94103  
-United States of America
+![Kathleen Fisher](https://techcrunch.com/wp-content/uploads/2025/07/Fisher_Kathleen_Official_Photo_211013-e1752782761128.jpg?w=150)
 
-[Get Directions](https://www.google.com/maps/dir/current+location/800+Howard+St.,+San+Francisco,+CA,+United+States+of+America,+94103)
+[Kathleen Fisher](https://techcrunch.com/author/kathleen-fisher/)
 
-* * *
+Director, Information Innovation Office (I2O) Defense Advanced Research Projects Agency (DARPA)
 
-## Upcoming TechCrunch events
+From defense labs to Wall Street and naval operations, AI is reshaping how countries protect themselves and project power. DARPA’s Kathleen Fisher, Point72’s Sri Chandrasekar, and Navy CTO Justin Fanelli dive into the cutting-edge AI breakthroughs driving security innovation. They’ll discuss what it means for entrepreneurs, investors, and the future of global stability.
 
-*   ![TechCrunch StrictlyVC Palo Alto featured](https://techcrunch.com/wp-content/uploads/2025/06/StrictlyVC-Palto-Alto-2025-featured-lockup-whiteback.png?w=500)
-    
-    ### [StrictlyVC Palo Alto](https://techcrunch.com/events/strictlyvc-palo-alto/)
-    
-    Palo Alto, CA December 3, 2025
-    
-    Presented by ![](https://techcrunch.com/wp-content/uploads/2020/01/playground-logo.png)
-    
-    [Get on Waitlist](#h-get-on-waitlist)
-    
-    Get on waitlist to get exclusive early access to limited tickets!
-    
+2:20PM – 2:45PM
 
-##### [TechCrunch Disrupt 2025 is innovation for every stage](https://techcrunch.com/events/tc-disrupt-2025/?utm_source=tc&utm_medium=ad&utm_campaign=disrupt2025&utm_content=ticketsales&promo=eventssidebar_rb&display=)
+Industry Stage- AI AI
 
-10,000+ tech leaders. 250+ sessions. 200+ speakers. 3 days. 5 industry stages. One epic experience of insights, strategy, and connections. Save up to $668 before rates increase after September 26.
+### AI That Talks Back: Character.AI in the Spotlight
 
-**[REGISTER NOW](https://techcrunch.com/events/tc-disrupt-2025/?utm_source=tc&utm_medium=ad&utm_campaign=disrupt2025&utm_content=ticketsales&promo=eventssidebar_rb&display=)**
+![Karandeep Anand](https://techcrunch.com/wp-content/uploads/2025/09/image-26.png?w=150)
 
-### Subscribe
+[Karandeep Anand](https://techcrunch.com/author/karan-arandeep/)
 
-![TechCrunch](https://techcrunch.com/wp-content/themes/tc-24/assets/svg/tc-lockup-green.svg)
+Chief Executive Officer Character.AI
 
-#### Event Updates
+Character.AI has captured global attention but not without controversy. CEO Karan Anand joins us to discuss the explosive rise of human-like AI companions, the legal battles and recent lawsuits challenging the company’s practices, and the ethical and technical questions behind lifelike dialogue. This fireside chat dives into both the breakthroughs and the pitfalls of conversational AI, exploring how these digital personalities are reshaping human interaction and the scrutiny that comes with pushing the boundaries of AI.
 
-Get the latest event announcements, special discounts and other event offers.
+2:20PM – 2:55PM
 
-Email address (required)
+Builders Stage
 
-Subscribe
+### Creating Communities and Companies That Last
 
-By submitting your email, you agree to our [Terms](#) and [Privacy Notice](#).
+![Jason Citron](https://techcrunch.com/wp-content/uploads/2025/09/Jason_Citron_HOF15-8363-e1756902926351.jpg?w=150)
 
-[Explore all newsletters](https://techcrunch.com/newsletters/)
+[Jason Citron](https://techcrunch.com/author/jason-citron/)
 
-## Partner with TechCrunch
+Founder & Former CEO Discord
 
-TechCrunch offers many ways for partners to engage directly with our attendees before, during, and after the event. Get in touch with us to learn more.
+![Tade Oyerinde](https://techcrunch.com/wp-content/uploads/2025/08/hs-e1754501681192.png?w=150)
 
-[Get in Touch](https://techcrunch.com/advertise/)
+[Tade Oyerinde](https://techcrunch.com/author/tade-oyerinde/)
+
+Founder and Chancellor Campus
+
+What happens when you design around people, not institutions? Jason Citron, founder and former CEO of Discord, and Tade Oyerinde, founder and chancellor of Campus, will discuss how they built companies that tapped into community to break through the noise. From Discord’s rise as a global hub for millions to Campus’s ambitious mission to reinvent college, they’ll explore product design, lessons in scaling amidst competition, and how founders can balance vision with adaptability.
+
+2:40PM – 3:00PM
+
+Disrupt Stage Fundraising
+
+### From Digg to Deals: Kevin Rose on Reinvention and Investing
+
+![Kevin Rose](https://techcrunch.com/wp-content/uploads/2015/03/Kevin-Rose-Headshot-Photo-Credit-Rainer-Hosch-1-e1757573169102.jpg?w=150)
+
+[Kevin Rose](https://techcrunch.com/author/kevin-rose/)
+
+Founder Digg
+
+Kevin Rose last spoke at Disrupt in 2012, when Digg was in the middle of one of tech’s most talked-about pivots. More than a decade later, he returns to Disrupt to talk about relaunching Digg alongside Reddit co-founder Alexis Ohanian, and to share what that experience taught him about product and community. Beyond Digg, Rose has become one of Silicon Valley’s most active early stage investors, backing breakout startups in consumer tech and crypto. In this fireside chat, he’ll reveal how he evaluates founders, spots the next wave of opportunities, and applies lessons from his own entrepreneurial journey to investing today.
+
+2:55PM – 3:35PM
+
+Builders Stage
+
+### Rethinking Startup Capital Without VCs
+
+![Erik Allebest](https://techcrunch.com/wp-content/uploads/2025/05/Erik-Allebest_Credit-Personal-Archive.jpg?w=150)
+
+[Erik Allebest](https://techcrunch.com/author/erik-allebest/)
+
+CEO Chess.com
+
+![Kay Makishi](https://techcrunch.com/wp-content/uploads/2025/08/Kay-Makishi_Profile-Photo.png?w=150)
+
+[Kay Makishi](https://techcrunch.com/author/kay-makishi/)
+
+Vice President Lupoff / Stevens Family Office
+
+![Gale Wilkinson](https://techcrunch.com/wp-content/uploads/2025/04/Gale-Wilkinson.jpg?w=150)
+
+[Gale Wilkinson](https://techcrunch.com/author/gale-wilkinson/)
+
+Managing Partner VITALIZE Venture Capital
+
+VCs aren’t the only game in town. Join us as we explore alternative fundraising paths with an angel investor, a family office vice president, and a founder who bootstrapped to success. Learn how to tap into capital that aligns with your vision, keeps you in control, and gets you to the next stage—on your terms.
+
+3:00PM – 3:15PM
+
+Disrupt Stage
+
+### From Startup Battlefield to Discord with Jason Citron
+
+![Jason Citron](https://techcrunch.com/wp-content/uploads/2025/09/Jason_Citron_HOF15-8363-e1756902926351.jpg?w=150)
+
+[Jason Citron](https://techcrunch.com/author/jason-citron/)
+
+Founder & Former CEO Discord
+
+Jason Citron first came to TechCrunch Disrupt more than a decade ago as a scrappy founder pitching his vision on the Battlefield stage. Since then, he’s built one of the most successful consumer platforms of the era with Discord—reshaping how communities connect, game, and share online. Now he returns to Disrupt to reflect on the lessons of persistence, pivots, and product vision that carried him from early struggles to a company valued in the billions.
+
+3:45PM – 4:00PM
+
+Disrupt Stage Startup Battlefield
+
+### Announcing the Winner of the Startup Battlefield 2025
+
+No sessions on this day. Reset filters or choose another day.
 
 [![TechCrunch Logo](https://techcrunch.com/wp-content/themes/tc-24/dist/svg/tc-logo.svg)](https://techcrunch.com)
 
@@ -432,8 +1820,3 @@ TechCrunch offers many ways for partners to engage directly with our attendees b
 *   [Code of Conduct](https://techcrunch.com/code-of-conduct/)
 
 *   [Meta Connect](https://techcrunch.com/2025/09/17/meta-unveils-its-new-oakley-meta-vanguard-smart-glasses-for-athletes/)
-*   [Groq](https://techcrunch.com/2025/09/17/nvidia-ai-chip-challenger-groq-raises-even-more-than-expected-hits-6-9b-valuation/)
-*   [Stubhub](https://techcrunch.com/2025/09/17/eric-bakers-long-winding-road-to-taking-stubhub-public/)
-*   [Liquid Glass](https://techcrunch.com/2025/09/15/apples-ios-26-with-the-new-liquid-glass-design-is-now-available-to-everyone/)
-*   [Vibe Coding](https://techcrunch.com/2025/09/14/vibe-coding-has-turned-senior-devs-into-ai-babysitters-but-they-say-its-worth-it/)
-*   [Tech Layoffs](https://techcrunch.com/2025/02/28/tech-layoffs-2024-list/)
