@@ -1,13 +1,13 @@
 === ATTENDEE PROFILE ===
-Generated: 2025-09-19T23:34:32.021Z
+Generated: 2025-09-20T02:00:51.930Z
 
-Conference Link: Techcrunch Disrupt
-Name: Oscar
-Social: https://x.com/oscrhong
-Main Motivation: Meet future collaborators
-Schedule Density Preference: Light with breathing room
+Conference Link: https://techcrunch.com/events/tc-disrupt-2025/
+Name: Oscar Hong
+Social: https://x.com/oscrhong,
+Main Motivation: Discover emerging technology
+Schedule Density Preference: Packed and fast-paced
 
 Additional Notes:
-meet the infra team at OpenAI
+I want to see the main keynotes and workshops related to AI infra. Keep my Wednesday morning free for coffee chats.
 
 === END PROFILE ===
